@@ -1,0 +1,249 @@
+@import "../libs";
+
+// -----------------------------------------------------------------------------
+// $Sortable fields
+// -----------------------------------------------------------------------------
+
+.brix-repeatable {}
+
+[data-icon='evfw-add']:before {
+	font-family: $icons;
+	content: "\f132";
+	bottom: -1px;
+}
+
+// -----------------------------------------------------------------------------
+// $Repeatable fields
+// -----------------------------------------------------------------------------
+
+.brix-repeatable {
+
+	.brix-container-repeatable-inner-wrapper {
+		@include ui_input_standard;
+		padding: 0 $baseline/4;
+	}
+
+	.brix-bundle-fields-wrapper,
+	.brix-field-inner {
+		background-color: $white;
+		position: relative;
+		@include box-sizing( border-box );
+	}
+
+// -----------------------------------------------------------------------------
+// $Empty state
+// -----------------------------------------------------------------------------
+
+	.brix-empty-state {
+		display: none;
+	}
+
+	// Empty state
+	&.brix-no-fields {
+		.brix-container-repeatable-inner-wrapper {
+			border-style: dashed;
+
+			&:hover {
+				border-color: $blue;
+			}
+		}
+
+		.brix-empty-state {
+			display: block;
+			text-align: center;
+
+			a {
+				padding: $baseline/2 0;
+				display: block;
+
+				&:focus {
+					@include box-shadow( none );
+				}
+			}
+		}
+
+		.brix-repeat-remove-all {
+			display: none;
+		}
+	}
+
+// -----------------------------------------------------------------------------
+// $Remove all
+// -----------------------------------------------------------------------------
+
+	.brix-field-header {
+		&:not( .brix-field-header-label-hidden ):not( .brix-field-header-label-inline-hidden ) {
+			* + .brix-repeat-remove-all {
+				margin-top: $baseline/2;
+			}
+		}
+
+		&.brix-field-header-label-hidden,
+		&.brix-field-header-label-inline-hidden {
+			margin-bottom: $baseline/2;
+		}
+	}
+
+// -----------------------------------------------------------------------------
+// $Standard field repeatable
+// -----------------------------------------------------------------------------
+
+	&:not( .brix-field-bundle ) {
+		&:hover {
+			.brix-container-repeatable-inner-wrapper {
+				> .brix-field-inner {
+					border-color: $grey_3;
+				}
+			}
+		}
+
+		.brix-container-repeatable-inner-wrapper {
+			> .brix-field-inner {
+				margin-top: $baseline/4;
+				margin-bottom: $baseline/4;
+				border: 1px solid $grey_1;
+				border-radius: $radius;
+				padding: $baseline $gutter;
+
+				&:hover {
+					border-color: $grey_4;
+					@include box-shadow( #{$ui_el_shadow_hover} );
+					border-top-right-radius: 0;
+
+					> .brix-field-panel-controls-wrapper {
+						display: block;
+
+						.brix-field-panel-controls-inner-wrapper {
+							border-color: $grey_4;
+						}
+					}
+				}
+
+				.brix-field-panel-controls-wrapper + .brix-repeatable-controls {
+					display: block;
+					@include position( absolute, (-( (($baseline+2) / 2) + $baseline/8 + 2) ) 0 null 0 );
+				}
+
+				&:last-child {
+					.brix-repeatable-controls:last-child {
+						display: block;
+						@include position( absolute, null 0 (-( (($baseline+2) / 2) + $baseline/8 + 2) ) 0 );
+					}
+				}
+
+				// -------------------------------------------------------------
+				// $Sortable helper and placeholder
+				// -------------------------------------------------------------
+				&.ui-sortable-helper {
+					.brix-repeatable-controls {
+						display: none !important;
+					}
+
+					> .brix-field-panel-controls-wrapper {
+						display: block;
+					}
+				}
+
+				&.ui-sortable-placeholder {
+					border-color: $grey_3;
+					background-color: $grey_3;
+				}
+			}
+		}
+	}
+
+// -----------------------------------------------------------------------------
+// $Repeatable controls
+// -----------------------------------------------------------------------------
+
+	.brix-repeatable-controls {
+		text-align: center;
+		display: none;
+		@include opacity( 0 );
+	}
+
+	&:hover {
+		.brix-repeatable-controls {
+			@include opacity( 100 );
+		}
+	}
+
+// -----------------------------------------------------------------------------
+// $Bundle field repeatable
+// -----------------------------------------------------------------------------
+
+	&.brix-field-bundle {
+		.brix-bundle-fields-wrapper {
+			margin-top: $baseline/4;
+			margin-bottom: $baseline/4;
+
+			.brix-field-panel-controls-wrapper + .brix-repeatable-controls {
+				display: block;
+				@include position( absolute, (-( (($baseline*1.5 + 2) / 2) + $baseline/8 + 2) ) 0 null 0 );
+			}
+
+			&:hover {
+				border-color: $grey_4;
+				@include box-shadow( #{$ui_el_shadow_hover} );
+				border-top-right-radius: 0;
+
+				> .brix-field-panel-controls-wrapper {
+					display: block;
+
+					.brix-field-panel-controls-inner-wrapper {
+						border-color: $grey_4;
+					}
+				}
+			}
+
+			// -----------------------------------------------------------------
+			// $Sortable helper and placeholder
+			// -----------------------------------------------------------------
+			&.ui-sortable-helper {
+				.brix-repeatable-controls {
+					display: none !important;
+				}
+
+				> .brix-field-panel-controls-wrapper {
+					display: block;
+				}
+			}
+
+			&.ui-sortable-placeholder {
+				border-color: $grey_3;
+				background-color: $grey_3;
+			}
+		}
+
+		.brix-container-repeatable-inner-wrapper .brix-bundle-fields-wrapper:last-child {
+			.brix-repeatable-controls:last-child {
+				display: block;
+				@include position( absolute, null 0 (-( (($baseline*1.5 + 2) / 2) + $baseline/8 + 2) ) 0 );
+			}
+		}
+	}
+
+// -----------------------------------------------------------------------------
+// $Grid
+// -----------------------------------------------------------------------------
+
+	.brix-bundle-fields-wrapper-heading {
+		@include clearfix;
+		border: 1px solid $blue_1;
+		border-radius: $radius;
+		background-color: $blue_1;
+		color: $white;
+		font-weight: bold;
+		padding: $baseline/2 $baseline/4;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+
+		+ .brix-container-repeatable-inner-wrapper {
+			border-top-left-radius: 0;
+			border-top-right-radius: 0;
+		}
+	}
+
+// -----------------------------------------------------------------------------
+
+}

@@ -1,0 +1,538 @@
+@import "../libs";
+
+// Mixins ----------------------------------------------------------------------
+
+@mixin btn_idle( $size, $color: $white ) {
+	&:before {
+		@include position( absolute, 50% null null null );
+		@include spinner( $size, 2px, $color );
+		@include opacity( 0 );
+		visibility: hidden;
+		@include transition( opacity $transition_time*1.5 );
+	}
+
+	&.brix-btn-idle {
+		&:before {
+			@include opacity( 100 );
+			visibility: visible;
+		}
+	}
+}
+
+@mixin complete_icon( $size ) {
+	&:after {
+		font-family: $fontello;
+		@include opacity( 0 );
+		visibility: hidden;
+		@include position( absolute, 50% null null null );
+		font-size: $size;
+		line-height: $size;
+		@include size( $size );
+		margin-top: -$size/2;
+		margin-left: -$size/2;
+	}
+
+	&.brix-btn-complete {
+		&:after {
+			@include opacity( 100 );
+			visibility: visible;
+		}
+	}
+}
+
+@mixin message_icon() {
+	$success_icon : "\e800";
+	$error_icon   : "\e801";
+	$notice_icon  : "\e802";
+	$warning_icon : "\e803";
+
+	$success_color: $green;
+	$error_color  : $red;
+	$notice_color : $blue;
+	$warning_color: yellow;
+
+	&.brix-btn-complete {
+		// Success -------------------------------------------------------------
+		&.brix-btn-success {
+			&:after {
+				content: $success_icon;
+			}
+		}
+		// Error ---------------------------------------------------------------
+		&.brix-btn-error {
+			&:after {
+				content: $error_icon;
+			}
+		}
+		// Notice --------------------------------------------------------------
+		&.brix-btn-notice {
+			&:after {
+				content: $notice_icon;
+			}
+		}
+		// Warning -------------------------------------------------------------
+		&.brix-btn-warning {
+			&:after {
+				content: $warning_icon;
+			}
+		}
+
+		// ---------------------------------------------------------------------
+		// Styles --------------------------------------------------------------
+		// ---------------------------------------------------------------------
+		&.brix-btn-style-round,
+		&.brix-btn-style-button {
+			&:after {
+				color: $white;
+			}
+		}
+
+		&.brix-btn-style-text {
+			// Success ---------------------------------------------------------
+			&.brix-btn-success {
+				&:after {
+					color: $success_color;
+				}
+			}
+			// Error -----------------------------------------------------------
+			&.brix-btn-error {
+				&:after {
+					color: $error_color;
+				}
+			}
+			// Notice ----------------------------------------------------------
+			&.brix-btn-notice {
+				&:after {
+					color: $notice_color;
+				}
+			}
+			// Warning ---------------------------------------------------------
+			&.brix-btn-warning {
+				&:after {
+					color: $warning_color;
+				}
+			}
+		}
+	}
+
+}
+
+// -----------------------------------------------------------------------------
+// $Buttons
+// -----------------------------------------------------------------------------
+
+.brix-btn {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	border: none;
+	padding: 0;
+	background-color: transparent;
+	vertical-align: middle;
+
+	&:focus {
+		outline: none;
+	}
+
+	// Icon --------------------------------------------------------------------
+
+	i {
+		// display: inline-block;
+		float: left;
+
+		&:before {
+			position: relative;
+			// display: inline-block;
+			font-size: inherit;
+			font-weight: 400;
+			font-style: normal;
+			text-transform: none;
+			text-rendering: auto;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			text-align: center;
+			float: left;
+			// bottom: -1px;
+		}
+
+		+ span {
+			margin-left: $gutter/2;
+		}
+	}
+
+// -----------------------------------------------------------------------------
+// $Sizes
+// -----------------------------------------------------------------------------
+
+	&.brix-btn-size-small {
+		line-height: $baseline;
+		font-size: 12px;
+
+		i {
+			font-size: 14px;
+		}
+
+		&.brix-btn-style-round i {
+			@include size( $baseline );
+
+			&:before {
+				@include size( $baseline );
+				line-height: $baseline;
+			}
+		}
+
+		&.brix-btn-type-confirm,
+		&.brix-btn-type-save {
+			@include btn_idle( 8px );
+			@include complete_icon( 14px );
+			@include message_icon();
+		}
+	}
+
+	&.brix-btn-size-medium {
+		line-height: $baseline*1.5;
+		font-size: 13px;
+
+		i {
+			font-size: 16px;
+		}
+
+		&.brix-btn-style-round i {
+			@include size( $baseline*1.5 );
+
+			&:before {
+				@include size( $baseline*1.5 );
+				line-height: $baseline*1.5;
+			}
+		}
+
+		&.brix-btn-type-confirm,
+		&.brix-btn-type-save {
+			@include btn_idle( 10px );
+			@include complete_icon( 18px );
+			@include message_icon();
+		}
+	}
+
+	&.brix-btn-size-large {
+		line-height: $baseline*2;
+		font-size: 14px;
+
+		i {
+			font-size: 18px;
+		}
+
+		&.brix-btn-style-round i {
+			@include size( $baseline*2 );
+
+			&:before {
+				@include size( $baseline*2 );
+				line-height: $baseline*2;
+			}
+		}
+
+		&.brix-btn-type-confirm,
+		&.brix-btn-type-save {
+			@include btn_idle( 12px );
+			@include complete_icon( 22px );
+			@include message_icon();
+		}
+	}
+
+// -----------------------------------------------------------------------------
+// $Styles
+// -----------------------------------------------------------------------------
+
+	&.brix-btn-style-text {
+		line-height: 1.25;
+
+		&:hover {
+			text-decoration: underline;
+		}
+
+		&.brix-btn-type-confirm {
+			&:before {
+				border-top-color: $blue;
+				border-left-color: $blue;
+			}
+		}
+		&.brix-btn-type-save {
+			&:before {
+				border-top-color: $green;
+				border-left-color: $green;
+			}
+		}
+
+		&.brix-btn-size-small i {
+			line-height: 12px * 1.25;
+		}
+
+		&.brix-btn-size-medium i {
+			line-height: 13px * 1.25;
+		}
+
+		&.brix-btn-size-large i {
+			line-height: 14px * 1.25;
+		}
+
+		&.brix-btn-type-confirm,
+		&.brix-btn-type-save {
+			&:after,
+			&:before {
+				right: 0;
+			}
+
+			&.brix-btn-idle {
+				&.brix-btn-size-small {
+					padding-right: $gutter/2 + 8px + 4;
+				}
+
+				&.brix-btn-size-medium {
+					padding-right: $gutter/2 + 10px + 4;
+				}
+
+				&.brix-btn-size-large {
+					padding-right: $gutter/2 + 12px + 4;
+				}
+			}
+
+			&.brix-btn-success {
+				&.brix-btn-size-small {
+					padding-right: $gutter/2 + 14px;
+				}
+
+				&.brix-btn-size-medium {
+					padding-right: $gutter/2 + 18px;
+				}
+
+				&.brix-btn-size-large {
+					padding-right: $gutter/2 + 22px;
+				}
+			}
+		}
+	}
+
+	&.brix-btn-style-button,
+	&.brix-btn-style-round {
+		color: $white;
+		border: 1px solid;
+		font-weight: bold;
+
+		&:hover {
+			@include box-shadow( #{$ui_el_shadow_hover} );
+		}
+
+		&:active {
+			@include box-shadow( #{$ui_el_shadow} );
+			color: rgba( $grey_6, .3 );
+		}
+
+		&.brix-btn-idle,
+		&.brix-btn-success {
+			&:before,
+			&:after {
+				@include transition( visibility $transition_time*1.5, opacity $transition_time*1.5 ease );
+			}
+		}
+	}
+
+	&.brix-btn-style-round {
+		border-radius: 50%;
+
+		i {
+			float: left;
+		}
+
+		&.brix-btn-type-confirm,
+		&.brix-btn-type-save {
+			&:after,
+			&:before {
+				left: 50%;
+			}
+
+			i {
+				@include transition( visibility $transition_time*1.5, opacity $transition_time*1.5 ease );
+				@include opacity( 100 );
+				visibility: visible;
+			}
+
+			&.brix-btn-success,
+			&.brix-btn-idle {
+				i {
+					@include opacity( 0 );
+					visibility: hidden;
+				}
+			}
+		}
+	}
+
+	&.brix-btn-style-button {
+		border-radius: $radius;
+
+		&.brix-btn-type-confirm,
+		&.brix-btn-type-save {
+			@include transition( padding $transition_time*2 $ease-out-back );
+		}
+
+		&.brix-btn-size-small {
+			padding: 0 $gutter/2;
+
+			&.brix-btn-with-icon {
+				padding-left: $gutter/4;
+			}
+
+			&.brix-btn-type-confirm,
+			&.brix-btn-type-save {
+				&:after,
+				&:before {
+					right: $gutter/2;
+				}
+
+				&.brix-btn-idle {
+					padding-right: $gutter + 8px + 4;
+				}
+
+				&.brix-btn-success,
+				&.brix-btn-error,
+				&.brix-btn-notice,
+				&.brix-btn-warning {
+					padding-right: $gutter + 12px;
+				}
+			}
+		}
+
+		&.brix-btn-size-medium {
+			padding: 0 $gutter;
+
+			&.brix-btn-with-icon {
+				padding-left: $gutter/2;
+				padding-right: $gutter/2 * 1.5;
+			}
+
+			&.brix-btn-type-confirm,
+			&.brix-btn-type-save {
+				&:after,
+				&:before {
+					right: $gutter/2;
+				}
+
+				&.brix-btn-idle {
+					padding-right: $gutter + 10px + 4;
+				}
+
+				&.brix-btn-success,
+				&.brix-btn-error,
+				&.brix-btn-notice,
+				&.brix-btn-warning {
+					padding-right: $gutter + 18px;
+				}
+			}
+		}
+
+		&.brix-btn-size-large {
+			padding: 0 $gutter*1.5;
+
+			&.brix-btn-with-icon {
+				padding-left: $gutter*1.5 / 2;
+				padding-right: $gutter;
+			}
+
+			&.brix-btn-type-confirm,
+			&.brix-btn-type-save {
+				&:after,
+				&:before {
+					right: $gutter*1.5 / 2;
+				}
+
+				&.brix-btn-idle {
+					padding-right: ($gutter*1.5 / 2)*2 + 12px + 4;
+				}
+
+				&.brix-btn-success,
+				&.brix-btn-error,
+				&.brix-btn-notice,
+				&.brix-btn-warning {
+					padding-right: ($gutter*1.5 / 2)*2 + 22px;
+				}
+			}
+		}
+	}
+
+// -----------------------------------------------------------------------------
+// $Types
+// -----------------------------------------------------------------------------
+
+	// Action ------------------------------------------------------------------
+	&.brix-btn-type-action {
+		&.brix-btn-style-round,
+		&.brix-btn-style-button {
+			background-color: $blue;
+			border-color: $blue;
+
+			// &:hover {
+			// 	background-color: $blue;
+			// 	border-color: $blue;
+			// }
+		}
+
+		&.brix-btn-style-text {
+			color: $blue;
+
+			// &:hover {
+			// 	color: $blue;
+			// }
+		}
+	}
+
+	// Confirm -----------------------------------------------------------------
+	&.brix-btn-type-confirm {
+		&.brix-btn-style-round,
+		&.brix-btn-style-button {
+			background-color: $green;
+			border-color: $green;
+		}
+
+		&.brix-btn-style-text {
+			color: $green;
+		}
+	}
+
+	// Delete ------------------------------------------------------------------
+	&.brix-btn-type-delete {
+		&.brix-btn-style-round,
+		&.brix-btn-style-button {
+			background-color: $red;
+			border-color: $red;
+		}
+
+		&.brix-btn-style-text {
+			color: $red;
+		}
+	}
+
+	// Save --------------------------------------------------------------------
+	&.brix-btn-type-save {
+		&.brix-btn-style-round,
+		&.brix-btn-style-button {
+			background-color: $green;
+			border-color: $green;
+		}
+
+		&.brix-btn-style-text {
+			color: $green;
+		}
+	}
+}
+
+// -----------------------------------------------------------------------------
+// $Spinner animation
+// -----------------------------------------------------------------------------
+
+@include keyframes( spinner ) {
+	0% {
+		@include transform( rotate(0deg) );
+	}
+	100% {
+		@include transform( rotate(360deg) );
+	}
+}

@@ -1,0 +1,2043 @@
+# <!=Copyright (C) 2017 Evolve Themes
+# This file is distributed under the GNU General Public License v2 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Agncy 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2017-09-13 13:35:50+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:17
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:18
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:21
+msgid "We are sorry, but the page you are looking for does not exist.<br>Please check entered address and try again or go to home page."
+msgstr ""
+
+#: 404.php:22
+msgid "Back to home page"
+msgstr ""
+
+#: comments.php:23
+msgid "Join the discussion"
+msgstr ""
+
+#: comments.php:27
+msgctxt "comments title"
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:43
+msgid "Previous"
+msgstr ""
+
+#: comments.php:44
+msgid "Next"
+msgstr ""
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: config/about/about-page.php:22
+msgid "Welcome to Agncy"
+msgstr ""
+
+#: config/about/about-page.php:24 config/customize/customize.php:22
+msgid "Agncy"
+msgstr ""
+
+#: config/about/about-page.php:27
+msgid "Agncy is now installed and ready to use! Discover what&#8217;s changed in the latest theme update and make sure to register your license in order to enable auto updates."
+msgstr ""
+
+#: config/about/about-page.php:31
+msgid "Update available"
+msgstr ""
+
+#: config/about/about-page.php:37
+msgid "Parent theme version"
+msgstr ""
+
+#: config/about/about-page.php:39
+msgid "Current version"
+msgstr ""
+
+#: config/about/about-page.php:48
+msgid "Activate your theme in order to receive automatic updates."
+msgstr ""
+
+#: config/about/about-page.php:49
+msgid "In order to enable automatic updates, you have to connect the theme to your Envato account."
+msgstr ""
+
+#: config/about/about-page.php:51
+msgid "Activate now"
+msgstr ""
+
+#: config/about/about-page.php:57
+msgid "Welcome"
+msgstr ""
+
+#: config/about/about-page.php:60 inc/installer/installer_admin.php:59
+msgid "Getting started"
+msgstr ""
+
+#: config/about/about-page.php:63 config/about/panels/new_update.php:5
+msgid "What's new"
+msgstr ""
+
+#: config/about/about-page.php:66
+msgid "Auto updates"
+msgstr ""
+
+#: config/about/about-page.php:71 config/about/panels/demos.php:4
+msgid "Demo content"
+msgstr ""
+
+#: config/about/about-page.php:74
+msgid "Support"
+msgstr ""
+
+#: config/about/about-page.php:77
+msgid "System status"
+msgstr ""
+
+#: config/about/panels/auto_updates.php:14
+msgid "Enable auto updates"
+msgstr ""
+
+#: config/about/panels/auto_updates.php:15
+msgid "In order to enable the auto update system you have to register your license. Click on the button below to begin the procedure."
+msgstr ""
+
+#: config/about/panels/auto_updates.php:21
+msgid "You have enabled auto updates."
+msgstr ""
+
+#: config/about/panels/auto_updates.php:25
+msgid "Turn off auto updates."
+msgstr ""
+
+#: config/about/panels/auto_updates.php:31
+msgid "Save"
+msgstr ""
+
+#: config/about/panels/auto_updates.php:36
+msgid "Activate your theme"
+msgstr ""
+
+#: config/about/panels/demos.php:8
+msgid "Please note that some of the images used in the online demo may be replaced with creative commons images from <a href=\"https://unsplash.com\" target=\"_blank\">Unsplash</a>. Images are always intended for demo purposes only."
+msgstr ""
+
+#: config/about/panels/demos.php:15
+msgid "Installing a demo will not erase any page, or post, or Media Library item, but keep in mind that will override any customization you might have made in the WordPress Customizer."
+msgstr ""
+
+#: config/about/panels/demos.php:27
+msgid "Preview"
+msgstr ""
+
+#: config/about/panels/demos.php:28 config/about/panels/demos.php:46
+#: inc/installer/class-tgm-plugin-activation.php:2811
+msgid "Install"
+msgstr ""
+
+#: config/about/panels/demos.php:40
+msgid "Agncy Demo Installer plugin missing"
+msgstr ""
+
+#: config/about/panels/demos.php:41
+msgid "In order to install the theme demos, please install and activate the Agncy Demo Installer plugin and then come back to this page."
+msgstr ""
+
+#: config/about/panels/getting_started.php:7
+msgid "Documentation"
+msgstr ""
+
+#: config/about/panels/getting_started.php:9
+msgid "You can find helpful information in the theme documentation included in the main package, which covers installation, configuration and common usage of the theme."
+msgstr ""
+
+#: config/about/panels/getting_started.php:12
+#: config/about/panels/welcome.php:17
+msgid "Brix documentation"
+msgstr ""
+
+#: config/about/panels/getting_started.php:17
+msgid "Video tutorials"
+msgstr ""
+
+#: config/about/panels/getting_started.php:18
+msgid "A growing set of video tutorials will help you get up and running with the theme."
+msgstr ""
+
+#: config/about/panels/getting_started.php:20
+msgid "Agncy video tutorials"
+msgstr ""
+
+#: config/about/panels/new_update.php:5
+msgid "Changelog"
+msgstr ""
+
+#: config/about/panels/support.php:3
+msgid "Need help?"
+msgstr ""
+
+#: config/about/panels/support.php:6
+msgid "We regularly check the compatibility of our products with other components such as themes and plugins, and it is our care to fix bugs and anomalies directly referrable to Brix. You can read our support policy <a href=\"%s\" target=\"_blank\" rel=\"noreferrer noopener\">here</a>."
+msgstr ""
+
+#: config/about/panels/support.php:13
+msgid "Support is provided on the <a href=\"%s\" target=\"_blank\" rel=\"noreferrer noopener\">Justevolve.it</a> website through our ticketing system: on your dashboard, look for the \"Support\" section, from where you'll be able to browse tickets or create one."
+msgstr ""
+
+#: config/about/panels/support.php:18
+msgid "Go to your dashboard"
+msgstr ""
+
+#: config/about/panels/system.php:53
+msgid "WordPress environment"
+msgstr ""
+
+#: config/about/panels/system.php:57
+msgid "WP version:"
+msgstr ""
+
+#: config/about/panels/system.php:58
+msgid "WP Multisite:"
+msgstr ""
+
+#: config/about/panels/system.php:59
+msgid "WP memory limit:"
+msgstr ""
+
+#: config/about/panels/system.php:60
+msgid "WP debug mode:"
+msgstr ""
+
+#: config/about/panels/system.php:67
+msgid "Server environment"
+msgstr ""
+
+#: config/about/panels/system.php:71
+msgid "Server info:"
+msgstr ""
+
+#: config/about/panels/system.php:72
+msgid "PHP version:"
+msgstr ""
+
+#: config/about/panels/system.php:73
+msgid "PHP Post Max Size:"
+msgstr ""
+
+#: config/about/panels/system.php:74
+msgid "PHP Time Limit:"
+msgstr ""
+
+#: config/about/panels/system.php:75
+msgid "PHP Max Input Vars:"
+msgstr ""
+
+#: config/about/panels/system.php:76
+msgid "Max Upload Size:"
+msgstr ""
+
+#: config/about/panels/system.php:83
+msgid "Active plugins"
+msgstr ""
+
+#: config/about/panels/system.php:101
+msgid "Theme"
+msgstr ""
+
+#: config/about/panels/system.php:105
+msgid "Version:"
+msgstr ""
+
+#: config/about/panels/system.php:106
+msgid "Child theme:"
+msgstr ""
+
+#: config/about/panels/system.php:111
+msgid "The System Status report helps with troubleshooting issues with your site and allows to have a clear view over software versions, server settings and WordPress conifiguration."
+msgstr ""
+
+#: config/about/panels/system.php:112
+msgid "Keep in mind that some of the issues that may arise can be solved on your own (following the indications provided), while for others it is best to talk to your host provider directly."
+msgstr ""
+
+#: config/about/panels/welcome.php:13
+msgid "Where to start?"
+msgstr ""
+
+#: config/about/panels/welcome.php:14
+msgid "Here you can find some useful links to start using your theme right away!"
+msgstr ""
+
+#: config/about/panels/welcome.php:16
+msgid "Theme options"
+msgstr ""
+
+#: config/brix/blocks/blog.php:13
+msgid "Style options"
+msgstr ""
+
+#: config/brix/blocks/blog.php:20
+msgid "Style"
+msgstr ""
+
+#: config/brix/blocks/blog.php:23 inc/helpers.php:213
+msgid "Classic"
+msgstr ""
+
+#: config/brix/blocks/blog.php:24 inc/helpers.php:214
+msgid "Masonry"
+msgstr ""
+
+#: config/brix/blocks/blog.php:25 inc/helpers.php:215
+msgid "Stream"
+msgstr ""
+
+#: config/brix/blocks/blog.php:35 inc/helpers.php:225
+msgid "Columns"
+msgstr ""
+
+#: config/brix/blocks/blog.php:38 inc/helpers.php:228
+msgid "2 Columns"
+msgstr ""
+
+#: config/brix/blocks/blog.php:39 inc/helpers.php:229
+msgid "3 Columns"
+msgstr ""
+
+#: config/brix/blocks/blog.php:40 inc/helpers.php:230
+msgid "4 Columns"
+msgstr ""
+
+#: config/brix/blocks/blog.php:50 inc/helpers.php:240
+msgid "Featured media"
+msgstr ""
+
+#: config/brix/blocks/blog.php:62 config/options/pages.php:94
+#: config/options/pages.php:157 config/options/single-post.php:61
+#: inc/helpers.php:252
+msgid "Image size"
+msgstr ""
+
+#: config/brix/blocks/blog.php:72 inc/helpers.php:262
+msgid "Excerpt"
+msgstr ""
+
+#: config/brix/blocks/blog.php:83 content-masonry.php:88 content-stream.php:68
+#: content.php:92 inc/blog.php:851 inc/helpers.php:273
+msgid "Read more"
+msgstr ""
+
+#: config/brix/blocks/button.php:12
+msgid "Squared block"
+msgstr ""
+
+#: config/brix/blocks/button.php:13
+msgid "Strikethrough"
+msgstr ""
+
+#: config/brix/blocks/button.php:14
+msgid "Strikethrough simple"
+msgstr ""
+
+#: config/brix/blocks/button.php:32
+msgid "Label size"
+msgstr ""
+
+#: config/brix/blocks/button.php:36
+msgid "Default"
+msgstr ""
+
+#: config/brix/blocks/button.php:37
+msgid "Micro"
+msgstr ""
+
+#: config/brix/blocks/button.php:38 config/brix/blocks/divider.php:45
+msgid "Small"
+msgstr ""
+
+#: config/brix/blocks/button.php:39
+msgid "Large"
+msgstr ""
+
+#: config/brix/blocks/button.php:40 config/brix/blocks/divider.php:43
+msgid "Full width"
+msgstr ""
+
+#: config/brix/blocks/button.php:41 inc/customizer/customizer.php:39
+msgid "Custom"
+msgstr ""
+
+#: config/brix/blocks/button.php:48
+msgid "Label font size"
+msgstr ""
+
+#: config/brix/blocks/counter.php:12 config/brix/blocks/gallery.php:12
+#: config/brix/blocks/image.php:12
+msgid "Standard"
+msgstr ""
+
+#: config/brix/blocks/counter.php:13
+msgid "Boxed with border"
+msgstr ""
+
+#: config/brix/blocks/counter.php:14
+msgid "Boxed filled"
+msgstr ""
+
+#: config/brix/blocks/divider.php:11
+msgid "Invisible"
+msgstr ""
+
+#: config/brix/blocks/divider.php:12
+msgid "Solid"
+msgstr ""
+
+#: config/brix/blocks/divider.php:30
+#: inc/customizer/templates/font-family-instance.php:35
+msgid "Height"
+msgstr ""
+
+#: config/brix/blocks/divider.php:40
+#: inc/customizer/templates/font-family-instance.php:31
+msgid "Size"
+msgstr ""
+
+#: config/brix/blocks/divider.php:44
+msgid "Medium"
+msgstr ""
+
+#: config/brix/blocks/divider.php:55
+msgid "Alignment"
+msgstr ""
+
+#: config/brix/blocks/divider.php:58 inc/sidebars.php:142
+msgid "Left"
+msgstr ""
+
+#: config/brix/blocks/divider.php:59
+msgid "Center"
+msgstr ""
+
+#: config/brix/blocks/divider.php:60 inc/sidebars.php:143
+msgid "Right"
+msgstr ""
+
+#: config/brix/blocks/divider.php:69
+msgid "Color"
+msgstr ""
+
+#: config/brix/blocks/feature-box.php:11
+msgid "Boxed icon"
+msgstr ""
+
+#: config/brix/blocks/feature-box.php:28
+msgid "Boxed icon style"
+msgstr ""
+
+#: config/brix/blocks/feature-box.php:31
+msgid "Filled"
+msgstr ""
+
+#: config/brix/blocks/feature-box.php:32
+msgid "Ghost"
+msgstr ""
+
+#: config/brix/blocks/gallery.php:13
+msgid "Shadows on hover"
+msgstr ""
+
+#: config/brix/blocks/image.php:13
+msgid "Drop shadow"
+msgstr ""
+
+#: config/brix/effects.php:54
+msgid "Effects"
+msgstr ""
+
+#: config/brix/effects.php:61
+msgid "No effect"
+msgstr ""
+
+#: config/brix/effects.php:62
+msgid "Bounce In"
+msgstr ""
+
+#: config/brix/effects.php:63
+msgid "Bounce In Down"
+msgstr ""
+
+#: config/brix/effects.php:64
+msgid "Bounce In Left"
+msgstr ""
+
+#: config/brix/effects.php:65
+msgid "Bounce In Right"
+msgstr ""
+
+#: config/brix/effects.php:66
+msgid "Bounce In Up"
+msgstr ""
+
+#: config/brix/effects.php:67
+msgid "Fade In"
+msgstr ""
+
+#: config/brix/effects.php:68
+msgid "Fade In Down"
+msgstr ""
+
+#: config/brix/effects.php:69
+msgid "Fade In Down Big"
+msgstr ""
+
+#: config/brix/effects.php:70
+msgid "Fade In Left"
+msgstr ""
+
+#: config/brix/effects.php:71
+msgid "Fade In Left Big"
+msgstr ""
+
+#: config/brix/effects.php:72
+msgid "Fade In Right"
+msgstr ""
+
+#: config/brix/effects.php:73
+msgid "Fade In Right Big"
+msgstr ""
+
+#: config/brix/effects.php:74
+msgid "Fade In Up"
+msgstr ""
+
+#: config/brix/effects.php:75
+msgid "Fade In Up Big"
+msgstr ""
+
+#: config/brix/effects.php:76
+msgid "Flip In X"
+msgstr ""
+
+#: config/brix/effects.php:77
+msgid "Flip In Y"
+msgstr ""
+
+#: config/brix/effects.php:78
+msgid "Light Speed In"
+msgstr ""
+
+#: config/brix/effects.php:79
+msgid "Rotate In"
+msgstr ""
+
+#: config/brix/effects.php:80
+msgid "Rotate In Down Left"
+msgstr ""
+
+#: config/brix/effects.php:81
+msgid "Rotate In Down Right"
+msgstr ""
+
+#: config/brix/effects.php:82
+msgid "Rotate In Up Left"
+msgstr ""
+
+#: config/brix/effects.php:83
+msgid "Rotate In Up Right"
+msgstr ""
+
+#: config/brix/effects.php:84
+msgid "Roll In"
+msgstr ""
+
+#: config/brix/effects.php:85
+msgid "Zoom In"
+msgstr ""
+
+#: config/brix/effects.php:86
+msgid "Zoom In Down"
+msgstr ""
+
+#: config/brix/effects.php:87
+msgid "Zoom In Left"
+msgstr ""
+
+#: config/brix/effects.php:88
+msgid "Zoom In Right"
+msgstr ""
+
+#: config/brix/effects.php:89
+msgid "Zoom In Up"
+msgstr ""
+
+#: config/brix/effects.php:90
+msgid "Slide In Down"
+msgstr ""
+
+#: config/brix/effects.php:91
+msgid "Slide In Left"
+msgstr ""
+
+#: config/brix/effects.php:92
+msgid "Slide In Right"
+msgstr ""
+
+#: config/brix/effects.php:93
+msgid "Slide In Up"
+msgstr ""
+
+#: config/brix/effects.php:94
+msgid "Bounce"
+msgstr ""
+
+#: config/brix/effects.php:95
+msgid "Flash"
+msgstr ""
+
+#: config/brix/effects.php:96
+msgid "Pulse"
+msgstr ""
+
+#: config/brix/effects.php:97
+msgid "Rubber Band"
+msgstr ""
+
+#: config/brix/effects.php:98
+msgid "Shake"
+msgstr ""
+
+#: config/brix/effects.php:99
+msgid "Head Shake"
+msgstr ""
+
+#: config/brix/effects.php:100
+msgid "Swing"
+msgstr ""
+
+#: config/brix/effects.php:101
+msgid "Tada"
+msgstr ""
+
+#: config/brix/effects.php:102
+msgid "Wobble"
+msgstr ""
+
+#: config/brix/effects.php:103
+msgid "Jello"
+msgstr ""
+
+#: config/brix/effects.php:108
+msgid "Effect"
+msgstr ""
+
+#: config/brix/effects.php:109
+msgid "The entrance effect when the element will become visible in the viewport."
+msgstr ""
+
+#: config/brix/effects.php:132
+msgid "Animate SVG icons"
+msgstr ""
+
+#: config/brix/effects.php:133
+msgid "Attempt to animate SVG icons (only works with icons built with the <code>stroke</code> attribute applied on paths)."
+msgstr ""
+
+#: config/customize/customize.php:28 config/customize/customize.php:38
+#: config/customize/customize.php:71
+msgid "Colors"
+msgstr ""
+
+#: config/customize/customize.php:43
+msgid "Typography"
+msgstr ""
+
+#: config/customize/customize.php:44
+msgid "The font families used in the theme are shared across a number of different uses. You can pick a different family, change the source of the family, or change the association of a family with a particular typographic element."
+msgstr ""
+
+#: config/customize/customize.php:53
+msgid "Font families"
+msgstr ""
+
+#: config/customize/customize.php:74 config/customize/customize.php:97
+#: config/options/header.php:107
+msgid "Logo"
+msgstr ""
+
+#: config/customize/customize.php:75
+msgid "Tagline"
+msgstr ""
+
+#: config/customize/customize.php:76 config/customize/customize.php:98
+#: config/options/pages.php:184
+msgid "Text"
+msgstr ""
+
+#: config/customize/customize.php:77 inc/editor.php:33
+msgid "Light text"
+msgstr ""
+
+#: config/customize/customize.php:78 config/customize/customize.php:116
+msgid "Headings"
+msgstr ""
+
+#: config/customize/customize.php:79
+msgid "Links"
+msgstr ""
+
+#: config/customize/customize.php:80
+msgid "Lighter details"
+msgstr ""
+
+#: config/customize/customize.php:81
+msgid "Preloader"
+msgstr ""
+
+#: config/customize/customize.php:85 config/options/footer.php:35
+msgid "Footer"
+msgstr ""
+
+#: config/customize/customize.php:88
+msgid "Footer background"
+msgstr ""
+
+#: config/customize/customize.php:94
+msgid "Main text"
+msgstr ""
+
+#: config/customize/customize.php:99 inc/editor.php:21
+msgid "Small text"
+msgstr ""
+
+#: config/customize/customize.php:100 inc/editor.php:27
+msgid "Smaller text"
+msgstr ""
+
+#: config/customize/customize.php:101 inc/editor.php:15
+msgid "Big text"
+msgstr ""
+
+#: config/customize/customize.php:102
+msgid "Quote"
+msgstr ""
+
+#: config/customize/customize.php:103
+msgid "Header bar"
+msgstr ""
+
+#: config/customize/customize.php:107
+msgid "Navigation"
+msgstr ""
+
+#: config/customize/customize.php:110
+msgid "Main nav"
+msgstr ""
+
+#: config/customize/customize.php:111
+msgid "Mobile - Main nav"
+msgstr ""
+
+#: config/customize/customize.php:112
+msgid "Drawer - Main nav"
+msgstr ""
+
+#: config/customize/customize.php:119
+msgid "Heading 1"
+msgstr ""
+
+#: config/customize/customize.php:120
+msgid "Mobile - Heading 1"
+msgstr ""
+
+#: config/customize/customize.php:121
+msgid "Heading 1 Big"
+msgstr ""
+
+#: config/customize/customize.php:122
+msgid "Mobile - Heading 1 Big"
+msgstr ""
+
+#: config/customize/customize.php:123
+msgid "Heading 2"
+msgstr ""
+
+#: config/customize/customize.php:124
+msgid "Heading 3"
+msgstr ""
+
+#: config/customize/customize.php:125
+msgid "Heading 4"
+msgstr ""
+
+#: config/customize/customize.php:126
+msgid "Heading 5"
+msgstr ""
+
+#: config/customize/customize.php:127
+msgid "Heading 6"
+msgstr ""
+
+#: config/customize/customize.php:128
+msgid "Sub heading"
+msgstr ""
+
+#: config/global-functionalities.php:80
+msgid "Primary Menu"
+msgstr ""
+
+#: config/global-functionalities.php:116
+msgid "High density"
+msgstr ""
+
+#: config/global-functionalities.php:121
+msgctxt "responsive breakpoint"
+msgid "Mobile"
+msgstr ""
+
+#: config/global-functionalities.php:131
+msgid "Widget Area"
+msgstr ""
+
+#: config/global-functionalities.php:133
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: config/options/blog.php:22 config/options/blog.php:27
+msgid "Index"
+msgstr ""
+
+#: config/options/blog.php:37 config/options/blog.php:42
+msgid "Archives"
+msgstr ""
+
+#: config/options/blog.php:52 config/options/blog.php:57
+msgid "Single"
+msgstr ""
+
+#: config/options/blog.php:65
+msgid "Blog"
+msgstr ""
+
+#: config/options/footer.php:24
+msgid "Disabled"
+msgstr ""
+
+#: config/options/footer.php:40
+msgid "Appearance"
+msgstr ""
+
+#: config/options/footer.php:44
+msgid "Fixed reveal"
+msgstr ""
+
+#: config/options/footer.php:46
+msgid "The footer will be revealed upon scrolling down the page."
+msgstr ""
+
+#: config/options/footer.php:54 config/options/header.php:74
+msgid "Background skin"
+msgstr ""
+
+#: config/options/footer.php:55
+msgid "Select the color theme used in the footer area."
+msgstr ""
+
+#: config/options/footer.php:59 config/options/header.php:78
+#: config/options/header.php:149
+msgid "Dark background, light text"
+msgstr ""
+
+#: config/options/footer.php:60 config/options/header.php:79
+#: config/options/header.php:150
+msgid "Light background, dark text"
+msgstr ""
+
+#: config/options/footer.php:66 config/options/footer.php:139
+#: config/options/header.php:25 config/options/header.php:29
+msgid "Layout"
+msgstr ""
+
+#: config/options/footer.php:70
+msgid "Preset"
+msgstr ""
+
+#: config/options/footer.php:72
+msgid "Select a particular footer preset."
+msgstr ""
+
+#: config/options/footer.php:82
+msgid "Main footer widget area"
+msgstr ""
+
+#: config/options/footer.php:91
+msgid "Footer column 1"
+msgstr ""
+
+#: config/options/footer.php:100
+msgid "Footer column 2"
+msgstr ""
+
+#: config/options/footer.php:109
+msgid "Footer column 3"
+msgstr ""
+
+#: config/options/footer.php:118
+msgid "Copyright widget area left column"
+msgstr ""
+
+#: config/options/footer.php:119 config/options/footer.php:129
+msgid "Displayed under the footer columns."
+msgstr ""
+
+#: config/options/footer.php:128
+msgid "Copyright widget area right column"
+msgstr ""
+
+#: config/options/footer.php:141
+msgid "Select a particular footer layout."
+msgstr ""
+
+#: config/options/footer.php:150
+msgid "Widget area column 1"
+msgstr ""
+
+#: config/options/footer.php:159
+msgid "Widget area column 2"
+msgstr ""
+
+#: config/options/footer.php:168
+msgid "Widget area column 3"
+msgstr ""
+
+#: config/options/footer.php:177
+msgid "Widget area column 4"
+msgstr ""
+
+#: config/options/general.php:13 config/options/general.php:18
+msgid "Global options"
+msgstr ""
+
+#: config/options/general.php:22
+msgid "Google Maps API key"
+msgstr ""
+
+#: config/options/general.php:24
+msgid "Refer to <a href=\"%s\" target=\"_blank\">this page</a> to get an API key."
+msgstr ""
+
+#: config/options/header.php:20
+msgid "Header"
+msgstr ""
+
+#: config/options/header.php:31
+msgid "Select a particular header layout."
+msgstr ""
+
+#: config/options/header.php:40
+msgid "Widget area"
+msgstr ""
+
+#: config/options/header.php:49
+msgid "Background"
+msgstr ""
+
+#: config/options/header.php:57
+msgid "Background image"
+msgstr ""
+
+#: config/options/header.php:65
+msgid "Background overlay"
+msgstr ""
+
+#: config/options/header.php:86
+msgid "Widget area #1"
+msgstr ""
+
+#: config/options/header.php:87
+msgid "Select the widget area to be used in the first column of the header."
+msgstr ""
+
+#: config/options/header.php:96
+msgid "Widget area #2"
+msgstr ""
+
+#: config/options/header.php:97
+msgid "Select the widget area to be used in the second column of the header."
+msgstr ""
+
+#: config/options/header.php:111
+msgid "Main logo"
+msgstr ""
+
+#: config/options/header.php:113
+msgid "The website logo."
+msgstr ""
+
+#: config/options/header.php:120
+msgid "Main logo white"
+msgstr ""
+
+#: config/options/header.php:122
+msgid "The website logo in a light variant to be used when there is a dark background."
+msgstr ""
+
+#: config/options/header.php:129
+msgid "Show tagline"
+msgstr ""
+
+#: config/options/header.php:131
+msgid "Show the site tagline below the site title."
+msgstr ""
+
+#: config/options/header.php:140
+msgid "Mobile"
+msgstr ""
+
+#: config/options/header.php:144
+msgid "Mobile drawer skin"
+msgstr ""
+
+#: config/options/header.php:145
+msgid "The colors combination used for the mobile menu panel."
+msgstr ""
+
+#: config/options/pages.php:17 config/options/pages.php:30
+#: config/options/pages.php:47 config/options/single-post.php:17
+#: config/options/single-post.php:28 config/options.php:20
+msgid "Options"
+msgstr ""
+
+#: config/options/pages.php:23 config/options/single-post.php:23
+#: inc/sidebars.php:113
+msgid "Sidebar"
+msgstr ""
+
+#: config/options/pages.php:53 config/options/pages.php:175
+msgid "Subtitle"
+msgstr ""
+
+#: config/options/pages.php:54
+msgid "Placed before the page title."
+msgstr ""
+
+#: config/options/pages.php:63
+msgid "Disable page header"
+msgstr ""
+
+#: config/options/pages.php:73 config/options/single-post.php:51
+msgid "Full width featured image"
+msgstr ""
+
+#: config/options/pages.php:83 config/options/pages.php:214
+msgid "Full width page content"
+msgstr ""
+
+#: config/options/pages.php:84 config/options/pages.php:215
+msgid "Extend the page content width."
+msgstr ""
+
+#: config/options/pages.php:114 config/options/pages.php:120
+msgid "Project slides"
+msgstr ""
+
+#: config/options/pages.php:127
+msgid "Slide"
+msgstr ""
+
+#: config/options/pages.php:136 content-search.php:12
+msgid "Project"
+msgstr ""
+
+#: config/options/pages.php:137
+msgid "The project the slide will link to."
+msgstr ""
+
+#: config/options/pages.php:145
+msgid "Use video"
+msgstr ""
+
+#: config/options/pages.php:146
+msgid "If the project has a video, use it instead of the project image."
+msgstr ""
+
+#: config/options/pages.php:149
+msgid "No"
+msgstr ""
+
+#: config/options/pages.php:150
+msgid "Yes"
+msgstr ""
+
+#: config/options/pages.php:158
+msgid "Image size for the project image."
+msgstr ""
+
+#: config/options/pages.php:166
+msgid "Title"
+msgstr ""
+
+#: config/options/pages.php:167
+msgid "The title of the slide."
+msgstr ""
+
+#: config/options/pages.php:176
+msgid "The subtitle of the slide."
+msgstr ""
+
+#: config/options/pages.php:185
+msgid "The text of the slide."
+msgstr ""
+
+#: config/options/pages.php:195
+msgid "Filling this text will make a button show up linking to the project."
+msgstr ""
+
+#: config/options/pages.php:196
+msgid "Call-to-action text"
+msgstr ""
+
+#: config/options/pages.php:208
+msgid "Page options"
+msgstr ""
+
+#: config/options/search.php:22 config/options/social.php:22
+msgid "Global"
+msgstr ""
+
+#: config/options/search.php:27 config/options/search.php:35
+msgid "Search"
+msgstr ""
+
+#: config/options/single-post.php:45
+msgid "Post options"
+msgstr ""
+
+#: config/options/single-post.php:70
+msgid "Display share block"
+msgstr ""
+
+#: config/options/single-post.php:71
+msgid "Check this to display share links."
+msgstr ""
+
+#: config/options/single-post.php:80
+msgid "Display posts navigation"
+msgstr ""
+
+#: config/options/single-post.php:81
+msgid "Check this to display navigation links to the previous and next posts."
+msgstr ""
+
+#: config/options/single-post.php:91
+msgid "Display related posts"
+msgstr ""
+
+#: config/options/single-post.php:92
+msgid "Check this to display the related posts."
+msgstr ""
+
+#: config/options/social.php:27 config/options/social.php:33
+#: config/options/social.php:45
+msgid "Social"
+msgstr ""
+
+#: config/options/social.php:92
+msgid "Full URL for the social network profile."
+msgstr ""
+
+#: content-masonry.php:74 content-stream.php:60 content.php:76
+#: inc/single-post.php:10
+msgid "Posted by"
+msgstr ""
+
+#: content-masonry.php:75 content-stream.php:61 content.php:77
+#: inc/single-post.php:11
+msgid "on"
+msgstr ""
+
+#: content-none.php:1
+msgid "Nothing Found"
+msgstr ""
+
+#: content-search.php:9
+msgid "Team member"
+msgstr ""
+
+#: content-search.php:15
+msgid "Office"
+msgstr ""
+
+#: content-search.php:18
+msgid "Job"
+msgstr ""
+
+#: header-blank.php:22 header.php:22
+msgid "Skip to content"
+msgstr ""
+
+#: inc/admin.php:51
+msgid "There was an error disconnecting your account. Try again."
+msgstr ""
+
+#: inc/admin.php:79
+msgid "Please enter a valid Envato authentication code."
+msgstr ""
+
+#: inc/admin.php:105
+msgid "Couldn't find the theme among your purchases. Did you connect the right account?"
+msgstr ""
+
+#: inc/admin.php:172 inc/admin.php:181 inc/admin.php:217
+msgid "On"
+msgstr ""
+
+#: inc/admin.php:172 inc/admin.php:181 inc/admin.php:217
+msgid "Off"
+msgstr ""
+
+#: inc/admin.php:177
+msgid "We recommend setting memory to at least 64MB. See <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">official WordPress documentation</a>."
+msgstr ""
+
+#: inc/admin.php:182
+msgid "Debug mode is not suitable for production use, you might want to turn it off. See <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">official WordPress documentation</a>."
+msgstr ""
+
+#: inc/admin.php:192
+msgid "Although the theme is compatible with PHP 5.2+, we recommend a minimum PHP version of 5.6."
+msgstr ""
+
+#: inc/admin.php:200
+msgctxt "php time limit"
+msgid "%s seconds"
+msgstr ""
+
+#: inc/admin.php:397
+msgid "Update needed!"
+msgstr ""
+
+#: inc/admin.php:440
+msgid "Agncy: plugins action needed!"
+msgstr ""
+
+#: inc/admin.php:443
+msgid "Here is a list of plugins that must be activated:"
+msgstr ""
+
+#: inc/admin.php:451
+msgid "Here is a list of plugins that must be updated:"
+msgstr ""
+
+#: inc/admin.php:459
+msgid "Manage plugins"
+msgstr ""
+
+#: inc/blog.php:432
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/blog.php:488
+msgid "Go to the next page"
+msgstr ""
+
+#: inc/blog.php:505
+msgid "Go to the first page"
+msgstr ""
+
+#: inc/blog.php:525
+msgid "<span class=\"meta-nav screen-reader-text\">Page </span>%s"
+msgstr ""
+
+#: inc/blog.php:529
+msgid "Go to page number %s"
+msgstr ""
+
+#: inc/blog.php:552
+msgid "Go to the last page"
+msgstr ""
+
+#: inc/blog.php:560
+msgid "Go to the previous page"
+msgstr ""
+
+#: inc/blog.php:601
+msgid "No title"
+msgstr ""
+
+#: inc/blog.php:620
+msgid "No comments"
+msgstr ""
+
+#: inc/blog.php:620
+msgid "1 comment"
+msgstr ""
+
+#: inc/blog.php:620
+msgid "% comments"
+msgstr ""
+
+#: inc/blog.php:630
+msgctxt "Used between list items, there is a space after the comma."
+msgid " "
+msgstr ""
+
+#: inc/blog.php:663
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr ""
+
+#: inc/blog.php:841
+msgid "Related articles"
+msgstr ""
+
+#: inc/customizer/controls/families.php:30
+msgid "Font Families"
+msgstr ""
+
+#: inc/customizer/controls/families.php:157
+msgid "Primary"
+msgstr ""
+
+#: inc/customizer/controls/families.php:166
+msgid "Secondary"
+msgstr ""
+
+#: inc/customizer/controls/families.php:175
+msgid "Headings bold"
+msgstr ""
+
+#: inc/customizer/controls/families.php:184
+msgid "Headings regular"
+msgstr ""
+
+#: inc/customizer/controls/families.php:193
+msgid "Headings light"
+msgstr ""
+
+#: inc/customizer/customizer.php:29
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/customizer/customizer.php:34
+msgid "Typekit"
+msgstr ""
+
+#: inc/customizer/customizer.php:58
+msgid "Force refresh"
+msgstr ""
+
+#: inc/customizer/customizer.php:59
+msgid "Re-save customizer data and force the refresh of the imported external CSS file."
+msgstr ""
+
+#: inc/customizer/customizer.php:62
+msgid "Give a label to the font family"
+msgstr ""
+
+#: inc/customizer/templates/font-families.php:16
+msgid "Label"
+msgstr ""
+
+#: inc/customizer/templates/font-families.php:26
+#: inc/customizer/templates/font-families.php:49
+#: inc/customizer/templates/font-families.php:55
+#: inc/customizer/templates/font-family-instance.php:14
+msgid "Family"
+msgstr ""
+
+#: inc/customizer/templates/font-families.php:32
+msgid "Variants"
+msgstr ""
+
+#: inc/customizer/templates/font-families.php:37
+msgid "Subsets"
+msgstr ""
+
+#: inc/customizer/templates/font-families.php:44
+msgid "Kit ID"
+msgstr ""
+
+#: inc/customizer/templates/font-families.php:60
+msgid "Stylesheet URL"
+msgstr ""
+
+#: inc/customizer/templates/font-family-instance.php:22
+msgid "Variant"
+msgstr ""
+
+#: inc/customizer/templates/font-family-instance.php:39
+msgid "Spacing"
+msgstr ""
+
+#: inc/customizer/templates/font-family-instance.php:45
+msgid "Transform"
+msgstr ""
+
+#: inc/customizer/templates/font-family-instance.php:47
+msgid "None"
+msgstr ""
+
+#: inc/customizer/templates/font-family-instance.php:48
+msgid "Uppercase"
+msgstr ""
+
+#: inc/customizer/templates/font-family-instance.php:49
+msgid "Lowercase"
+msgstr ""
+
+#: inc/customizer/templates/font-family-instance.php:50
+msgid "Capitalize"
+msgstr ""
+
+#: inc/editor.php:41
+msgid "Pull quote left"
+msgstr ""
+
+#: inc/editor.php:47
+msgid "Pull quote right"
+msgstr ""
+
+#: inc/editor.php:55
+msgid "Strikethrough link"
+msgstr ""
+
+#: inc/editor.php:61
+msgid "Strikethrough simple link"
+msgstr ""
+
+#: inc/editor.php:67
+msgid "Button link"
+msgstr ""
+
+#: inc/editor.php:75
+msgid "Divider full width"
+msgstr ""
+
+#: inc/editor.php:81
+msgid "Divider medium width"
+msgstr ""
+
+#: inc/editor.php:87
+msgid "Divider small width"
+msgstr ""
+
+#: inc/editor.php:95
+msgid "Split paragraph"
+msgstr ""
+
+#: inc/helpers.php:193
+msgid "Loop layout"
+msgstr ""
+
+#: inc/helpers.php:194
+msgid "Select the layout of elements in the loop."
+msgstr ""
+
+#: inc/helpers.php:306
+msgid "Enter"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+
+#: inc/installer/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+
+#: inc/installer/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+
+#: inc/installer/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/installer/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/installer/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/installer/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:393
+#: inc/installer/class-tgm-plugin-activation.php:920
+#: inc/installer/class-tgm-plugin-activation.php:2627
+#: inc/installer/class-tgm-plugin-activation.php:3674
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:394
+#: inc/installer/class-tgm-plugin-activation.php:3253
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:395
+#: inc/installer/class-tgm-plugin-activation.php:3046
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: inc/installer/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: inc/installer/class-tgm-plugin-activation.php:399
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+
+#: inc/installer/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:1027
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:1027
+#: inc/installer/class-tgm-plugin-activation.php:1030
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:1030
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:1214
+#: inc/installer/class-tgm-plugin-activation.php:3042
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+
+#: inc/installer/class-tgm-plugin-activation.php:2076
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2367
+msgid "Required"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2370
+msgid "Recommended"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2386
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2389
+msgid "External Source"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2392
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2409
+msgid "Not Installed"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2413
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2415
+msgid "Active"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2421
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2424
+msgid "Requires Update"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2427
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+
+#: inc/installer/class-tgm-plugin-activation.php:2436
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+
+#: inc/installer/class-tgm-plugin-activation.php:2482
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+
+#: inc/installer/class-tgm-plugin-activation.php:2486
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+
+#: inc/installer/class-tgm-plugin-activation.php:2490
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+
+#: inc/installer/class-tgm-plugin-activation.php:2494
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2576
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2584
+msgid "Installed version:"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2592
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2604
+msgid "Available version:"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2627
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2641
+msgid "Plugin"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2642
+msgid "Source"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2643
+msgid "Type"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2647
+msgid "Version"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2648
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+
+#: inc/installer/class-tgm-plugin-activation.php:2697
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+
+#: inc/installer/class-tgm-plugin-activation.php:2702
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+
+#: inc/installer/class-tgm-plugin-activation.php:2708
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2778
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2817
+msgid "Update"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2820
+msgid "Activate"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2851
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2853
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2894
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:2896
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:3002
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:3028
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:3252
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+
+#: inc/installer/class-tgm-plugin-activation.php:3592
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+
+#: inc/installer/class-tgm-plugin-activation.php:3595
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: inc/installer/class-tgm-plugin-activation.php:3597
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:3601
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: inc/installer/class-tgm-plugin-activation.php:3603
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:3603
+#: inc/installer/class-tgm-plugin-activation.php:3611
+msgid "Show Details"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:3603
+#: inc/installer/class-tgm-plugin-activation.php:3611
+msgid "Hide Details"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:3604
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+
+#: inc/installer/class-tgm-plugin-activation.php:3606
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:3609
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: inc/installer/class-tgm-plugin-activation.php:3611
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/installer/class-tgm-plugin-activation.php:3612
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+
+#: inc/installer/class-tgm-plugin-activation.php:3614
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/installer/installer_admin.php:27
+msgid "Something went wrong with the installation of one of the required plugins. Please install them through <a href=\"%s\">this page</a>, or manually."
+msgstr ""
+
+#: inc/installer/installer_admin.php:155
+msgctxt "plugin update label"
+msgid "Updating %s"
+msgstr ""
+
+#: inc/installer/installer_admin.php:160
+msgctxt "plugin activate label"
+msgid "Activating %s"
+msgstr ""
+
+#: inc/installer/installer_admin.php:165
+msgid "The %s plugin is already active"
+msgstr ""
+
+#: inc/installer/installer_admin.php:170
+msgctxt "plugin install label"
+msgid "Installing %s"
+msgstr ""
+
+#: inc/installer/page.php:2
+msgid "Theme setup wizard"
+msgstr ""
+
+#: inc/installer/page.php:10
+msgid "Welcome to Agncy!"
+msgstr ""
+
+#: inc/installer/page.php:11
+msgid "Thank you for purchasing our theme!"
+msgstr ""
+
+#: inc/installer/page.php:12
+msgid "In a couple of steps you&#8217;ll be able to install all the required stuff and your theme will be ready to rock!"
+msgstr ""
+
+#: inc/installer/page.php:16
+msgid "Let&#8217;s start"
+msgstr ""
+
+#: inc/installer/page.php:17
+msgid "By clicking on the above button the required plugins will be installed; no current content will be deleted nor modified."
+msgstr ""
+
+#: inc/installer/page.php:20
+msgid "Skip the theme setup wizard"
+msgstr ""
+
+#: inc/installer/page.php:28
+msgid "Installing the required plugins"
+msgstr ""
+
+#: inc/installer/page.php:46
+msgid "You&#8217;re all set!"
+msgstr ""
+
+#: inc/installer/page.php:51
+msgid "Finish!"
+msgstr ""
+
+#: inc/page-header.php:93
+msgid "Search results for:"
+msgstr ""
+
+#: inc/page-header.php:96
+msgid "Author archive for:"
+msgstr ""
+
+#: inc/page-header.php:99
+msgid "Archive for:"
+msgstr ""
+
+#: inc/page-header.php:124
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/page-header.php:126
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/page-header.php:128
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/projects.php:111
+msgid "Did you like this project?"
+msgstr ""
+
+#: inc/projects.php:112 inc/single-post.php:43
+msgid "Share it on these social networks!"
+msgstr ""
+
+#: inc/sidebars.php:117 inc/sidebars.php:141
+msgid "Inherit from post type default"
+msgstr ""
+
+#: inc/sidebars.php:118
+msgid "No sidebar"
+msgstr ""
+
+#: inc/sidebars.php:126
+msgid "Name"
+msgstr ""
+
+#: inc/sidebars.php:127
+msgid "Select which widget area to display."
+msgstr ""
+
+#: inc/sidebars.php:137
+msgid "Position"
+msgstr ""
+
+#: inc/sidebars.php:138
+msgid "Content will be displayed on the opposite side."
+msgstr ""
+
+#: inc/single-post.php:42
+msgid "Did you like this article?"
+msgstr ""
+
+#: searchform.php:10
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:11
+msgid "Search&#8230;"
+msgstr ""
+
+#: templates/page-content/content-loop-search.php:23
+msgid "Didn't you find what you were looking for?"
+msgstr ""
+
+#: templates/page-content/content.php:14
+msgid "Continue reading %s"
+msgstr ""
+
+#: templates/page-content/content.php:21
+msgid "Pages:"
+msgstr ""
+
+#: templates/page-content/content.php:25
+msgid "Page"
+msgstr ""
+
+#: templates/projects/single-project-nav.php:56
+msgid "Previous project"
+msgstr ""
+
+#: templates/projects/single-project-nav.php:90
+msgid "Next project"
+msgstr ""
+
+#: templates/projects/types/project-header-b.php:16
+msgid "Play video"
+msgstr ""
+
+#: templates/projects_slideshow.php:31
+msgid "View"
+msgstr ""
+
+#: templates/single-post/single-post-nav.php:60
+msgid "Previous post"
+msgstr ""
+
+#: templates/single-post/single-post-nav.php:98
+msgid "Next post"
+msgstr ""
+#. Theme Name of the plugin/theme
+msgid "Agncy"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://www.thbthemes.com/agncy"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A WordPress theme for creatives"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Evolve Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://justevolve.it"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blank – no header, no footer"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Projects Slideshow"
+msgstr ""

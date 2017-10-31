@@ -1,0 +1,79 @@
+@import "../libs";
+
+$blue_medium : #B3D8E6;
+$blue_light  : #F7FCFE;
+$yellow_light: #F9E986;
+
+// -----------------------------------------------------------------------------
+// $Field description
+// -----------------------------------------------------------------------------
+
+.brix-field-description {
+
+	.brix-container {
+		padding: $gutter;
+		border: 1px solid;
+		border-radius: $radius;
+	}
+
+	// Standard message
+	&.brix-description-style-standard {
+		.brix-container {
+			background-color: $grey_0;
+			border-color: $grey_1;
+		}
+	}
+
+	// Blue info notice
+	&.brix-description-style-info {
+		.brix-container {
+			background-color: $blue_light;
+			border-color: $blue_medium;
+		}
+	}
+
+	// Yellow important message
+	&.brix-description-style-important {
+		.brix-container {
+			background-color: lightYellow;
+			border-color: $yellow_light;
+		}
+	}
+}
+
+// -----------------------------------------------------------------------------
+// $Divider + description
+// -----------------------------------------------------------------------------
+
+.brix-field-divider.brix-divider-style-section_break + .brix-field-description {
+	// padding-top: $baseline/2;
+	margin-top: -$baseline/2;
+	background-color: $grey_0;
+
+	&.brix-description-style-standard {
+		background-color: $green_0;
+
+		.brix-field-inner-wrapper {
+			padding-top: 0;
+		}
+
+		.brix-container {
+			background-color: transparent;
+		}
+	}
+
+	.brix-container {
+		padding: 0;
+		border: none;
+		border-radius: none;
+		background-color: transparent;
+	}
+
+	&.brix-description-style-info {
+		background-color: $blue_light;
+	}
+
+	&.brix-description-style-important {
+		background-color: lightYellow;
+	}
+}

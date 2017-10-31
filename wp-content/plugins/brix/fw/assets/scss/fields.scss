@@ -1,0 +1,46 @@
+@import "libs";
+
+// -----------------------------------------------------------------------------
+// $Fields input styles
+// -----------------------------------------------------------------------------
+
+.brix-field {
+	input[type="text"],
+	input[type="number"],
+	textarea {
+		max-width: 100%;
+
+		@include brix_media( $media_mobile ) {
+			width: 100%;
+		}
+	}
+
+	select {
+		max-width: 100%;
+	}
+
+	input[type=checkbox],
+	input[type=radio] {
+		margin-top: 0;
+	}
+}
+
+// -----------------------------------------------------------------------------
+// $Breakpoints
+// -----------------------------------------------------------------------------
+
+.brix-field-breakpoint-selector {
+	margin-bottom: 1em;
+
+	p {
+		margin-bottom: .5em;
+	}
+}
+
+.brix-field-breakpoint {
+	display: none;
+
+	&.brix-active-breakpoint {
+		display: block;
+	}
+}

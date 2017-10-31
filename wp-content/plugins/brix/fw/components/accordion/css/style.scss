@@ -1,0 +1,26 @@
+@mixin brix_accordion_reset() {
+	.brix-accordion {
+		@extend %clearfix !optional;
+	}
+
+	.brix-toggle {
+		@extend %clearfix !optional;
+	}
+
+	.brix-toggle-trigger {
+		@extend %clearfix !optional;
+
+		.rtl & {
+			text-align: right;
+		}
+	}
+
+	.brix-toggle-content {
+		@extend %clearfix !optional;
+		display: none;
+	}
+
+	.brix-toggle.brix-active .brix-toggle-content {
+		display: block;
+	}
+}

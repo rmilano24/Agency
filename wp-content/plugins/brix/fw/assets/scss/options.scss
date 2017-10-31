@@ -1,0 +1,317 @@
+@import "libs";
+
+@include brix_icon_reset();
+
+// -----------------------------------------------------------------------------
+// $General
+// -----------------------------------------------------------------------------
+
+.brix-admin-page {
+	@include box-sizing( border-box );
+	margin-left: $gutter;
+	margin-right: $gutter*2;
+	@include clearfix;
+
+	@include brix-media( $media_mobile ) {
+		margin-right: 10px;
+		margin-left: 0;
+	}
+}
+
+// -----------------------------------------------------------------------------
+// $Page heading
+// -----------------------------------------------------------------------------
+
+.brix-admin-page-heading {
+	padding-bottom: $baseline*2;
+	margin: 0 -40px;
+	@include box-sizing( border-box );
+	padding: $baseline*2 $gutter*2;
+	background-color: $white;
+	border-bottom: 1px solid $grey_1;
+	@include clearfix();
+
+	@include brix_media( $media_mobile ) {
+		margin-left: -10px;
+		margin-right: -10px;
+		padding-left: $gutter;
+		padding-right: $gutter;
+	}
+
+	h1 {
+		line-height: 1;
+		font-weight: 300;
+		font-size: 2em;
+		padding: 0;
+		margin: 0;
+
+		span {
+			font-weight: bold;
+		}
+
+		~ div {
+			margin-top: $baseline/2 !important;
+		}
+	}
+
+	p {
+		margin-top: $baseline/3;
+		font-style: italic;
+	}
+
+	+ div {
+		margin-top: $baseline*2;
+	}
+
+	+ .brix-admin-page-group-nav {
+		margin-top: 0;
+	}
+}
+
+// -----------------------------------------------------------------------------
+// $Horizonal navigation for option page
+// -----------------------------------------------------------------------------
+
+.brix-admin-page .brix-admin-page-group-nav {
+	margin-bottom: $baseline*2;
+	background-color: $white;
+	margin-left: -40px;
+	margin-right: -40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-bottom: 1px solid $grey_1;
+
+	@include brix_media( $media_mobile ) {
+		margin-left: -10px;
+		margin-right: -10px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	ul {
+		font-size: 0.01em;
+		margin: 0;
+
+		li {
+			display: inline-block;
+			list-style: none;
+			font-size: 100em;
+			margin-bottom: 0;
+
+			&:first-child {
+				a {
+					border-left: 1px solid $grey_1;
+				}
+			}
+
+			&.brix-active a {
+				font-weight: bold;
+				background-color: $green;
+				color: $white;
+			}
+		}
+
+		a {
+			display: block;
+			position: relative;
+			font-size: $main_fsz;
+			padding: $baseline/1.5 $gutter;
+			text-decoration: none;
+			color: $grey_4;
+			border-right: 1px solid $grey_1;
+
+			&:focus {
+				@include box-shadow( none );
+			}
+
+			&:hover {
+				background-color: $grey_0;
+			}
+		}
+	}
+}
+
+// -----------------------------------------------------------------------------
+// $Containers
+// -----------------------------------------------------------------------------
+
+.brix-page-container {
+	background-color: $white;
+	border: 1px solid $grey_1;
+	padding: $baseline $gutter;
+	@include clearfix();
+}
+
+// -----------------------------------------------------------------------------
+// $Vertical navigation for option page
+// -----------------------------------------------------------------------------
+
+@include brix_tabs_reset();
+
+.brix-admin-page {
+	.brix-tabs-nav.brix-vertical {
+		width: 20%;
+		padding-right: $gutter;
+		@include box-sizing( border-box );
+
+		@include brix-media( $media_tablet ) {
+			width: 25%;
+		}
+
+		@include brix-media( $media_mobile ) {
+			width: 100%;
+			padding-right: 0;
+			margin-bottom: $baseline;
+		}
+
+		li {
+			margin-bottom: 0;
+
+			a {
+				display: block;
+				position: relative;
+				font-size: 13px;
+				padding: $baseline/2 $gutter/1.5;
+				text-decoration: none;
+				color: $grey_4;
+				border-radius: $radius;
+				font-weight: bold;
+				@include transition( none );
+
+				&:focus {
+					@include box-shadow( none );
+				}
+
+				&:hover {
+					color: $grey_6;
+					background-color: rgba( $white, .5 );
+				}
+
+				&.brix-active {
+					background-color: $green;
+					color: $white;
+				}
+			}
+		}
+
+		+ .brix-tab-container {
+			@include box-sizing( border-box );
+			width: 80%;
+			float: left;
+			position: relative;
+
+			@include brix-media( $media_tablet ) {
+				width: 75%;
+			}
+
+			@include brix-media( $media_mobile ) {
+				width: 100%;
+			}
+		}
+	}
+
+	.brix-tab-container {
+		border: 1px solid $grey_1;
+		border-radius: $radius;
+	}
+}
+
+// -----------------------------------------------------------------------------
+// $Vertical navigation for Metabox
+// -----------------------------------------------------------------------------
+
+.brix-metabox {
+	@include clearfix;
+	@include vertical_tab_style;
+}
+
+// -----------------------------------------------------------------------------
+// $Options tab container
+// -----------------------------------------------------------------------------
+
+.brix-tab-container {
+	background-color: $white;
+
+	&.brix-tab-container-loaded {
+		&:before {
+			@include opacity( 0 );
+			z-index: -1;
+		}
+	}
+
+	&:before {
+		content: "";
+		display: block;
+		z-index: 100;
+		background: $white;
+		@include opacity( 100 );
+		@include position( absolute, 0 0 0 0 );
+		@include transition( opacity $transition_time, z-index $transition_time );
+	}
+
+	.brix-tab {
+		background-color: $white;
+		@include clearfix;
+	}
+}
+
+// -----------------------------------------------------------------------------
+// $Options tab saving container
+// -----------------------------------------------------------------------------
+
+.brix-form-submit-container {
+	@include clearfix;
+	@include box-sizing( border-box );
+	display: inline-block;
+	width: 100%;
+	clear: both;
+	padding: $baseline/2 $gutter;
+	margin-top: $baseline/2;
+	border-top: 1px solid $grey_1;
+}
+
+// -----------------------------------------------------------------------------
+// $Native meta boxes
+// -----------------------------------------------------------------------------
+
+.brix-native-meta {
+	margin-top: $baseline;
+
+	> h3 {
+		margin-bottom: $baseline;
+	}
+
+	.brix-tabs {
+		@include vertical_tab_style;
+		background-color: $grey_0;
+		border: 1px solid $grey_1;
+	}
+}
+
+// -----------------------------------------------------------------------------
+// $Metabox style
+// -----------------------------------------------------------------------------
+
+.brix-metabox {
+	background-color: $grey_1;
+	margin: -6px -12px -12px;
+}
+
+// -----------------------------------------------------------------------------
+// $TinyMCE
+// -----------------------------------------------------------------------------
+
+.brix-switch-editor {
+	float: left;
+	@include box-sizing( content-box );
+	position: relative;
+	top: 1px;
+	background: $grey_1;
+	color: #777;
+	cursor: pointer;
+	font: 13px/19px "Open Sans", sans-serif;
+	height: 20px;
+	margin: 5px 0 0 5px;
+	padding: 3px 8px 4px;
+	border: 1px solid #E5E5E5;
+}

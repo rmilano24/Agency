@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>4_cols</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="layout" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="4_cols" sketch:type="MSArtboardGroup" fill="#3E6274">
+            <path d="M0,2.00746124 C0,0.89877101 0.894938439,0 2.00138927,0 L45.9986107,0 C47.1039475,0 48,0.900345519 48,2.00746124 L48,32.9925388 C48,34.101229 47.1050616,35 45.9986107,35 L2.00138927,35 C0.896052496,35 0,34.0996545 0,32.9925388 L0,2.00746124 Z M3,3 L45,3 L45,32 L3,32 L3,3 Z M34,3 L36,3 L36,8 L34,8 L34,3 Z M34,11 L36,11 L36,16 L34,16 L34,11 Z M34,19 L36,19 L36,24 L34,24 L34,19 Z M34,27 L36,27 L36,32 L34,32 L34,27 Z M12,3 L14,3 L14,8 L12,8 L12,3 Z M12,11 L14,11 L14,16 L12,16 L12,11 Z M12,19 L14,19 L14,24 L12,24 L12,19 Z M12,27 L14,27 L14,32 L12,32 L12,27 Z M23,3 L25,3 L25,8 L23,8 L23,3 Z M23,11 L25,11 L25,16 L23,16 L23,11 Z M23,19 L25,19 L25,24 L23,24 L23,19 Z M23,27 L25,27 L25,32 L23,32 L23,27 Z" id="Rectangle-1" sketch:type="MSShapeGroup"></path>
+            <path d="M19.5885,45 L19.5885,38.997 L18.4725,38.997 L16.5825,40.896 L17.3115,41.661 L18.3105,40.644 L18.3105,45 L19.5885,45 Z M22.0105,45.18 L24.1435,38.817 L23.3155,38.817 L21.1825,45.18 L22.0105,45.18 Z M29.5175,45 L29.5175,43.758 L30.2915,43.758 L30.2915,42.633 L29.5175,42.633 L29.5175,38.997 L27.7535,38.997 L25.3685,42.75 L25.3685,43.758 L28.2395,43.758 L28.2395,45 L29.5175,45 Z M28.2395,42.633 L26.6195,42.633 L28.2395,40.131 L28.2395,42.633 Z" id="1/4" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

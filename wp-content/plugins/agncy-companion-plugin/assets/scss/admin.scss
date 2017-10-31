@@ -1,0 +1,128 @@
+@import "libs";
+
+// -----------------------------------------------------------------------------
+// $Main structure
+// -----------------------------------------------------------------------------
+
+.agncy-sm_w {
+	width: 58%;
+	float: right;
+	background: $white;
+	@include box-shadow( #{$shadow} );
+	@include box-sizing( border-box );
+	padding: 0 15px 15px;
+
+	form:first-of-type {
+		border-bottom: 1px solid $grey_30;
+		padding-bottom: $baseline;
+		@include display( flex );
+		@include flex-wrap( wrap );
+	}
+
+	h3 {
+		width: 100%;
+	}
+
+	input {
+		float: left;
+		padding: $baseline/3 $gutter/2;
+		border-radius: $radius;
+		margin: 0 $gutter/4 0 0;
+
+		+ .agncy-btn {
+			padding-left: $gutter/2;
+			padding-right: $gutter/2;
+		}
+	}
+
+	button {
+		cursor: pointer;
+	}
+
+	table {
+		width: 100%;
+		border-collapse: collapse;
+
+		thead {
+			display: none;
+		}
+
+		.agncy-sn {
+			width: 80%;
+		}
+
+		td {
+			padding: $baseline/3 0;
+			border-bottom: 1px dashed $grey_20;
+			@include transition( padding $transition_time ease, background $transition_time ease );
+		}
+
+		.agncy-remove {
+			opacity: 0;
+			margin-right: $gutter/2;
+		}
+
+		tr:hover {
+			td {
+				background: $grey_10;
+				padding-left: $gutter/2;
+			}
+
+			.agncy-remove {
+				opacity: 1;
+			}
+		}
+
+		tr:last-child {
+			td {}
+		}
+
+		td:last-child {
+			text-align: right;
+		}
+	}
+}
+
+// -----------------------------------------------------------------------------
+// $Main structure
+// -----------------------------------------------------------------------------
+
+.post-type-agncy_office #agncy_office_taxonomydiv {
+	display: none;
+}
+
+// -----------------------------------------------------------------------------
+// $Dominant palette
+// -----------------------------------------------------------------------------
+
+[data-dominant] {
+	display: inline-block;
+}
+
+[data-dominant-preview] {
+	width: 38px;
+	height: 38px;
+	display: inline-block;
+	margin-left: 10px;
+	background: #ccc;
+	vertical-align: bottom;
+	border-radius: 3px;
+}
+
+[data-dominant-palette] li {
+	display: inline-flex;
+	cursor: pointer;
+	margin-right: 15px;
+	line-height: 20px;
+
+	&:hover {
+		text-decoration: underline;
+	}
+
+	span {
+		width: 20px;
+		height: 20px;
+		margin-right: 5px;
+		border-radius: 3px;
+	}
+}

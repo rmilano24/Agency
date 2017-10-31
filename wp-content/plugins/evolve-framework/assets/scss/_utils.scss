@@ -1,0 +1,276 @@
+// -----------------------------------------------------------------------------
+// $UTILS
+// -----------------------------------------------------------------------------
+// Include content inside a media query
+// -----------------------------------------------------------------------------
+// $media : the media query i.e. "screen and (max-width:768px)"
+
+@mixin ev-media( $media ) {
+	@media #{$media} {
+		@content;
+	}
+}
+
+@mixin box-shadow($shadows...) {
+	@include prefixer(box-shadow, $shadows, spec);
+}
+
+@function prefix($property, $prefixes: (webkit moz o ms)) {
+	$vendor-prefixed-properties: transform background-clip background-size;
+	$result: ();
+	@each $prefix in $prefixes {
+	   @if index($vendor-prefixed-properties, $property) {
+		 $property: -#{$prefix}-#{$property}
+	   }
+	   $result: append($result, $property);
+	}
+	@return $result;
+}
+
+@function trans-prefix($transition, $prefix: moz) {
+	$prefixed: ();
+	@each $trans in $transition {
+		$prop-name: nth($trans, 1);
+		$vendor-prop-name: prefix($prop-name, $prefix);
+		$prop-vals: nth($trans, 2);
+		$prefixed: append($prefixed, ($vendor-prop-name $prop-vals), comma);
+	}
+
+	@return $prefixed;
+}
+
+@mixin ev-transition($values...) {
+	$transitions: ();
+	@each $declaration in $values {
+		$prop: nth($declaration, 1);
+		$prop-opts: ();
+		$length: length($declaration);
+		@for $i from 2 through $length {
+			$prop-opts: append($prop-opts, nth($declaration, $i));
+		}
+		$trans: ($prop, $prop-opts);
+		$transitions: append($transitions, $trans, comma);
+	}
+
+	-webkit-transition: trans-prefix($transitions, webkit);
+	-moz-transition: trans-prefix($transitions, moz);
+	-o-transition: trans-prefix($transitions, o);
+	transition: $values;
+}
+
+// -----------------------------------------------------------------------------
+// $Icon mixin
+// -----------------------------------------------------------------------------
+
+@mixin icon( $char ) {
+	font-family: $icons;
+	font-weight: 400;
+	font-size: inherit;
+	line-height: 1;
+	text-rendering: auto;
+	text-transform: none;
+	text-indent: 0;
+	display: block;
+	speak: none;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: "#{$char}";
+}
+
+// -----------------------------------------------------------------------------
+// $Input standard style
+// -----------------------------------------------------------------------------
+
+@mixin ui_input_standard {
+	border: 1px solid $grey_1;
+	background-color: $grey_0;
+}
+
+// -----------------------------------------------------------------------------
+// $Input hover style
+// -----------------------------------------------------------------------------
+
+@mixin ui_input_hover {
+	background-color: $grey_2;
+	border-color: $grey_3;
+}
+
+// -----------------------------------------------------------------------------
+// $Input focus style
+// -----------------------------------------------------------------------------
+
+@mixin ui_input_focus {
+	background-color: $white;
+	border-color: $green;
+	// @include box-shadow( #{$ui_el_shadow_hover} );
+}
+
+// // -----------------------------------------------------------------------------
+// // $Action button
+// // -----------------------------------------------------------------------------
+
+// %btn {
+// 	.ev-btn-action {
+// 		position: relative;
+// 		display: inline-block;
+// 		padding: $baseline/2 $gutter;
+// 		line-height: 1;
+// 		border-radius: $radius;
+// 	}
+
+// 	.ev-btn-message {
+// 		visibility: hidden;
+// 		@include opacity( 0 );
+// 		@include transition( all $transition_time*2.5 ease );
+// 	}
+// }
+
+// // -----------------------------------------------------------------------------
+// // $Label style
+// // -----------------------------------------------------------------------------
+
+// %label {
+// 	font-style: italic;
+// 	font-size: 12px;
+// 	color: $text_light;
+// }
+
+// // -----------------------------------------------------------------------------
+// // $Remove icon
+// // -----------------------------------------------------------------------------
+
+// %remove_icon {
+// 	@include icon( "\f153" );
+// 	font-size: 18px;
+// 	cursor: pointer;
+// 	color: $red;
+// 	@include opacity( 0 );
+// 	z-index: 10;
+// 	@include transition( color $transition_time ease );
+// }
+
+// -----------------------------------------------------------------------------
+// $Vertical tab style
+// -----------------------------------------------------------------------------
+
+@mixin vertical_tab_style {
+	.ev-tabs {
+		@include display( flex );
+	}
+
+	.ev-tabs-nav.ev-vertical {
+		margin-right: 0;
+		max-width: none;
+		background-color: $white;
+		padding: $gutter $gutter/2;
+		width: 15%;
+		@include box-sizing( border-box );
+		@include box-shadow( inset -1px 0 0 $grey_1);
+
+		li {
+			margin-bottom: 0;
+
+			a {
+				color: rgba( $grey_6, .5 );
+				background-color: transparent;
+				border: none;
+				border-radius: $radius;
+				padding: $gutter/2;
+				text-decoration: none;
+				@include transition( none );
+				@include box-sizing( border-box );
+				font-weight: bold;
+
+				&:focus {
+					@include box-shadow( none );
+				}
+
+				&:hover {
+					color: $grey_6	;
+					background-color: rgba( $grey_3, .1 );
+				}
+
+				&.ev-active {
+					background-color: $green;
+					color: $white;
+				}
+			}
+		}
+
+		+ .ev-tab-container {
+			width: 85%;
+		}
+	}
+
+	.ev-tab-container {
+		border-right: 0;
+		border-bottom: 0;
+		border-top: 0;
+		position: relative;
+		z-index: 1;
+		width: 100%;
+		@include box-sizing( border-box );
+	}
+}
+
+// -----------------------------------------------------------------------------
+// $Spinner
+// -----------------------------------------------------------------------------
+
+@mixin spinner( $size: 16px, $weight: 2px, $color: "" ) {
+	z-index: 100000;
+	content: "";
+	display: block;
+	margin: {
+		left: -( ( $size + ( $weight*2 ) ) / 2 );
+		top: -( ( $size + ( $weight*2 ) ) / 2 );
+	}
+	@include size($size);
+	border-top: {
+		width: $weight;
+		style: solid;
+	}
+	border-right: {
+		width: $weight;
+		style: solid;
+		color: transparent;
+	}
+	border-bottom: {
+		width: $weight;
+		style: solid;
+		color: transparent;
+	}
+	border-left: {
+		width: $weight;
+		style: solid;
+	}
+	border-top-color: $color;
+	border-left-color: $color;
+	border-radius: 50%;
+	@include animation( spinner 400ms linear infinite );
+}
+
+// // -----------------------------------------------------------------------------
+// // $Handle
+// // -----------------------------------------------------------------------------
+
+// @mixin ev_handle() {
+// 	position: relative;
+// 	display: block;
+// 	visibility: hidden;
+// 	cursor: move;
+
+// 	&:before {
+// 		@include size( 6px 14px );
+// 		content: "";
+// 		background-image: url( $handle_img );
+// 		@include opacity( 25 );
+// 		display: block;
+// 		@include transition( opacity $transition_time ease );
+// 	}
+
+// 	&:hover:before {
+// 		@include opacity( 100 );
+// 	}
+// }

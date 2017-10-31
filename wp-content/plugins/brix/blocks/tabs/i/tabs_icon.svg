@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>tabs_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="tabs_icon" sketch:type="MSArtboardGroup" fill="#3E6274">
+            <path d="M18.1702128,16.5106383 L18.1702128,7.44680851 L10.893617,7.44680851 L10.893617,3.82978723 L1.82978723,3.82978723 L1.82978723,16.5106383 L18.1702128,16.5106383 Z M18.1702128,2 C18.6524841,2 19.0780133,2.18439626 19.4468085,2.55319149 C19.8156037,2.92198672 20,3.34751591 20,3.82978723 L20,16.5106383 C20,16.9929102 19.8156037,17.418438 19.4468085,17.787234 C19.0780133,18.1560302 18.6524841,18.3404255 18.1702128,18.3404255 L1.82978723,18.3404255 C1.34751537,18.3404255 0.92198754,18.1560302 0.553191489,17.787234 C0.184395329,17.418438 0,16.9929102 0,16.5106383 L0,3.82978723 C0,3.34751591 0.184395329,2.92198672 0.553191489,2.55319149 C0.92198754,2.18439626 1.34751537,2 1.82978723,2 L18.1702128,2 Z" id="Page-1" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

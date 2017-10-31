@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>1-4s_2-4_1-4s</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="sections" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="1-4s_2-4_1-4s" sketch:type="MSArtboardGroup">
+            <path d="M18,2.00449605 C18,0.89744345 18.8949789,0 19.9970047,0 L42.0029953,0 C43.1059106,0 44,0.896918893 44,2.00449605 L44,44.995504 C44,46.1025565 43.1050211,47 42.0029953,47 L19.9970047,47 C18.8940894,47 18,46.1030811 18,44.995504 L18,2.00449605 Z M21,3 L41,3 L41,44 L21,44 L21,3 Z" id="Rectangle-1" fill="#3E6274" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-1" fill="#CDDC39" sketch:type="MSShapeGroup" x="48" y="0" width="14" height="47" rx="2"></rect>
+            <path d="M28.074,59 L28.074,57.875 L25.626,57.875 C27.183,56.741 28.029,55.85 28.029,54.824 C28.029,53.627 27.012,52.907 25.734,52.907 C24.897,52.907 24.006,53.213 23.421,53.888 L24.15,54.734 C24.555,54.311 25.077,54.041 25.761,54.041 C26.256,54.041 26.733,54.302 26.733,54.824 C26.733,55.562 26.013,56.183 23.556,58.001 L23.556,59 L28.074,59 Z M30.361,59.18 L32.494,52.817 L31.666,52.817 L29.533,59.18 L30.361,59.18 Z M37.868,59 L37.868,57.758 L38.642,57.758 L38.642,56.633 L37.868,56.633 L37.868,52.997 L36.104,52.997 L33.719,56.75 L33.719,57.758 L36.59,57.758 L36.59,59 L37.868,59 Z M36.59,56.633 L34.97,56.633 L36.59,54.131 L36.59,56.633 Z" id="2/4" fill="#3E6274" sketch:type="MSShapeGroup"></path>
+            <path d="M51.5885,59 L51.5885,52.997 L50.4725,52.997 L48.5825,54.896 L49.3115,55.661 L50.3105,54.644 L50.3105,59 L51.5885,59 Z M54.0105,59.18 L56.1435,52.817 L55.3155,52.817 L53.1825,59.18 L54.0105,59.18 Z M61.5175,59 L61.5175,57.758 L62.2915,57.758 L62.2915,56.633 L61.5175,56.633 L61.5175,52.997 L59.7535,52.997 L57.3685,56.75 L57.3685,57.758 L60.2395,57.758 L60.2395,59 L61.5175,59 Z M60.2395,56.633 L58.6195,56.633 L60.2395,54.131 L60.2395,56.633 Z" id="1/4" fill="#CDDC39" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-4" fill="#B8C5CC" sketch:type="MSShapeGroup" x="21" y="16" width="3" height="1"></rect>
+            <rect id="Rectangle-4" fill="#B8C5CC" sketch:type="MSShapeGroup" x="21" y="30" width="3" height="1"></rect>
+            <rect id="Rectangle-6" fill="#B8C5CC" sketch:type="MSShapeGroup" x="30" y="3" width="1" height="3"></rect>
+            <rect id="Rectangle-6" fill="#B8C5CC" sketch:type="MSShapeGroup" x="30" y="8" width="1" height="3"></rect>
+            <rect id="Rectangle-6" fill="#B8C5CC" sketch:type="MSShapeGroup" x="30" y="13" width="1" height="3"></rect>
+            <rect id="Rectangle-6" fill="#B8C5CC" sketch:type="MSShapeGroup" x="30" y="31" width="1" height="3"></rect>
+            <rect id="Rectangle-6" fill="#B8C5CC" sketch:type="MSShapeGroup" x="30" y="36" width="1" height="3"></rect>
+            <rect id="Rectangle-6" fill="#B8C5CC" sketch:type="MSShapeGroup" x="30" y="41" width="1" height="3"></rect>
+            <rect id="Rectangle-4" fill="#B8C5CC" sketch:type="MSShapeGroup" x="27" y="16" width="3" height="1"></rect>
+            <rect id="Rectangle-4" fill="#B8C5CC" sketch:type="MSShapeGroup" x="27" y="30" width="3" height="1"></rect>
+            <rect id="Rectangle-4" fill="#B8C5CC" sketch:type="MSShapeGroup" x="32" y="16" width="3" height="1"></rect>
+            <rect id="Rectangle-4" fill="#B8C5CC" sketch:type="MSShapeGroup" x="32" y="30" width="3" height="1"></rect>
+            <rect id="Rectangle-4" fill="#B8C5CC" sketch:type="MSShapeGroup" x="38" y="16" width="3" height="1"></rect>
+            <rect id="Rectangle-4" fill="#B8C5CC" sketch:type="MSShapeGroup" x="38" y="30" width="3" height="1"></rect>
+            <rect id="Rectangle-1" fill="#CDDC39" sketch:type="MSShapeGroup" x="0" y="0" width="14" height="47" rx="2"></rect>
+            <path d="M3.5885,59 L3.5885,52.997 L2.4725,52.997 L0.5825,54.896 L1.3115,55.661 L2.3105,54.644 L2.3105,59 L3.5885,59 Z M6.0105,59.18 L8.1435,52.817 L7.3155,52.817 L5.1825,59.18 L6.0105,59.18 Z M13.5175,59 L13.5175,57.758 L14.2915,57.758 L14.2915,56.633 L13.5175,56.633 L13.5175,52.997 L11.7535,52.997 L9.3685,56.75 L9.3685,57.758 L12.2395,57.758 L12.2395,59 L13.5175,59 Z M12.2395,56.633 L10.6195,56.633 L12.2395,54.131 L12.2395,56.633 Z" id="1/4" fill="#CDDC39" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

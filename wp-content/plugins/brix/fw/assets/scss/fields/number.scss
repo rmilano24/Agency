@@ -1,0 +1,17 @@
+@import "../libs";
+
+// -----------------------------------------------------------------------------
+// $Number input
+// -----------------------------------------------------------------------------
+
+.brix {
+	input[type="number"] {
+		height: auto;
+	}
+
+	input[type="number"].brix-field-number-style-small {
+		font-size: $small_fsz;
+		line-height: $baseline - 4;
+		padding: 1px $gutter/4;
+	}
+}

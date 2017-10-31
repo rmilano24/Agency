@@ -1,0 +1,1105 @@
+# Copyright (C) 2017 Evolve Themes
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Agncy Companion Plugin 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/agncy-companion-plugin\n"
+"POT-Creation-Date: 2017-09-13 13:35:56+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: brix/blocks/jobs/jobs.php:18 brix/blocks/jobs/jobs.php:35
+#: post-types/jobs/jobs.php:16 post-types/jobs/jobs.php:50
+msgid "Job"
+msgstr ""
+
+#: brix/blocks/jobs/jobs.php:37 brix/blocks/office/office.php:37
+msgid "The office to pick up data from."
+msgstr ""
+
+#: brix/blocks/jobs/jobs.php:59
+msgid "Job Listings"
+msgstr ""
+
+#: brix/blocks/jobs/jobs.php:62
+msgid "Display jobs from an office."
+msgstr ""
+
+#: brix/blocks/jobs/jobs.php:63 brix/blocks/office/office.php:139
+#: brix/blocks/portfolio/portfolio.php:279
+#: brix/blocks/project-details/project_details.php:75
+#: brix/blocks/team/team.php:82
+msgid "Content"
+msgstr ""
+
+#: brix/blocks/jobs/jobs.php:86
+msgid "Displaying all job liststings from the %s office."
+msgstr ""
+
+#: brix/blocks/jobs/jobs.php:91
+msgid "Displaying all the job liststings."
+msgstr ""
+
+#: brix/blocks/jobs/templates/jobs_block_template.php:50
+msgid "Apply now"
+msgstr ""
+
+#: brix/blocks/jobs/templates/jobs_block_template.php:57
+msgid "Sorry, there are no positions available at the moment."
+msgstr ""
+
+#: brix/blocks/office/office.php:18 brix/blocks/office/office.php:35
+#: brix/blocks/office/office.php:135 post-types/offices/offices.php:16
+#: post-types/offices/offices.php:50 widgets/office_widget.php:148
+msgid "Office"
+msgstr ""
+
+#: brix/blocks/office/office.php:46
+msgid "Media"
+msgstr ""
+
+#: brix/blocks/office/office.php:47
+msgid "Select which media to display above the office info."
+msgstr ""
+
+#: brix/blocks/office/office.php:54
+msgid "Office image"
+msgstr ""
+
+#: brix/blocks/office/office.php:55
+msgid "Office map"
+msgstr ""
+
+#: brix/blocks/office/office.php:62 brix/blocks/portfolio/portfolio.php:78
+#: brix/blocks/team/team.php:54
+msgid "Image size"
+msgstr ""
+
+#: brix/blocks/office/office.php:64
+msgid "The image size of the office image."
+msgstr ""
+
+#: brix/blocks/office/office.php:74
+msgid "Map zoom"
+msgstr ""
+
+#: brix/blocks/office/office.php:76
+msgid "Display a map to the office (office coordinates must be set)."
+msgstr ""
+
+#: brix/blocks/office/office.php:88
+msgid "Show address"
+msgstr ""
+
+#: brix/blocks/office/office.php:90
+msgid "Display the textual address the office."
+msgstr ""
+
+#: brix/blocks/office/office.php:101
+msgid "Show contacts"
+msgstr ""
+
+#: brix/blocks/office/office.php:102
+msgid "Display the contact information for the office."
+msgstr ""
+
+#: brix/blocks/office/office.php:112
+msgid "Link to page"
+msgstr ""
+
+#: brix/blocks/office/office.php:113
+msgid "Select a page you want to link to within the website."
+msgstr ""
+
+#: brix/blocks/office/office.php:138
+msgid "Display data from an office."
+msgstr ""
+
+#: brix/blocks/office/office.php:162
+msgid "%s office."
+msgstr ""
+
+#: brix/blocks/office/templates/office_block_template.php:30
+msgid "Please configure Google Maps API Key in the Options > Global options section of your admin area."
+msgstr ""
+
+#: brix/blocks/office/templates/office_block_template.php:115
+#: widgets/office_widget.php:114
+msgid "View office"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:29
+#: brix/blocks/portfolio/portfolio.php:275
+msgid "Portfolio"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:47
+msgid "How many items to load"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:54
+msgid "Include from taxonomy"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:63
+msgid "Exclude from taxonomy"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:71
+msgid "Style options"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:88 brix/blocks/team/team.php:39
+msgid "Columns"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:91
+msgid "2 columns"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:92
+msgid "3 columns"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:93
+msgid "4 columns"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:101
+msgid "Paginate"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:104
+msgid "Do not paginate"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:105
+msgid "Regular pagination"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:106
+#: brix/blocks/portfolio/portfolio.php:316
+msgid "Reload block content"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:107
+#: brix/blocks/portfolio/portfolio.php:319
+msgid "Append new content"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:117
+msgid "Pagination type"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:120
+msgid "Previous and next links"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:121
+msgid "Numeric pagination"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:130
+msgid "Filter"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:136
+msgid "Display filter"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:140 post-types/projects/projects.php:239
+msgid "Do not display"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:141
+msgid "Compose the filter"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:150
+msgid "Filter contents"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:154
+msgid "All categories"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:165
+msgid "Hierarchical"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:166
+msgid "Check this to enable category dropdowns."
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:278
+msgid "Display a list of projects."
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:297
+msgid "Not paginated"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:303 post-types/projects/helpers.php:197
+#: post-types/projects/helpers.php:276 post-types/projects/helpers.php:324
+#: post-types/projects/helpers.php:325
+msgid "All"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:313
+msgid "Standard pagination"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:338
+msgid "From: %s"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:356
+msgid "Not from: %s"
+msgstr ""
+
+#: brix/blocks/portfolio/portfolio.php:361
+msgid "%s projects"
+msgstr ""
+
+#: brix/blocks/portfolio/templates/portfolio_block_template.php:22
+msgid "No projects found."
+msgstr ""
+
+#: brix/blocks/portfolio/templates/portfolio_block_template.php:42
+msgid "Load more"
+msgstr ""
+
+#: brix/blocks/portfolio/templates/portfolio_block_template.php:51
+#: brix/blocks/portfolio/templates/portfolio_block_template.php:74
+msgid "Previous"
+msgstr ""
+
+#: brix/blocks/portfolio/templates/portfolio_block_template.php:57
+#: brix/blocks/portfolio/templates/portfolio_block_template.php:80
+msgid "Next"
+msgstr ""
+
+#: brix/blocks/project-details/project_details.php:18
+#: brix/blocks/project-details/project_details.php:71
+msgid "Project details"
+msgstr ""
+
+#: brix/blocks/project-details/project_details.php:36
+msgid "Metas"
+msgstr ""
+
+#: brix/blocks/project-details/project_details.php:37
+#: post-types/projects/projects.php:251
+msgid "Multiple metas will be separated by commas."
+msgstr ""
+
+#: brix/blocks/project-details/project_details.php:39
+#: brix/blocks/project-details/project_details.php:96
+#: brix/blocks/project-details/templates/project_details_block_template.php:27
+#: post-types/projects/helpers.php:343
+msgid "Category"
+msgstr ""
+
+#: brix/blocks/project-details/project_details.php:45
+msgid "Display"
+msgstr ""
+
+#: brix/blocks/project-details/project_details.php:47
+msgid "Visual alignment of meta details."
+msgstr ""
+
+#: brix/blocks/project-details/project_details.php:50
+msgid "Horizontal"
+msgstr ""
+
+#: brix/blocks/project-details/project_details.php:51
+msgid "Vertical"
+msgstr ""
+
+#: brix/blocks/project-details/project_details.php:74
+msgid "Display single project details."
+msgstr ""
+
+#: brix/blocks/team/team.php:22 brix/blocks/team/team.php:78
+#: post-types/team/team.php:15
+msgid "Team"
+msgstr ""
+
+#: brix/blocks/team/team.php:41
+msgid "Number of columns the team grid will be arranged into."
+msgstr ""
+
+#: brix/blocks/team/team.php:56
+msgid "The image size of the team member images in the loop."
+msgstr ""
+
+#: brix/blocks/team/team.php:81
+msgid "Display team members."
+msgstr ""
+
+#: brix/blocks/team/templates/team_block_template.php:56
+msgid "View bio"
+msgstr ""
+
+#: helpers.php:98
+msgid "Full size"
+msgstr ""
+
+#: helpers.php:104
+msgid "Large"
+msgstr ""
+
+#: helpers.php:110
+msgid "Medium"
+msgstr ""
+
+#: helpers.php:116
+msgid "Thumbnail"
+msgstr ""
+
+#: post-types/jobs/jobs.php:13
+msgctxt "Post Type General Name"
+msgid "Jobs"
+msgstr ""
+
+#: post-types/jobs/jobs.php:14
+msgctxt "Post Type Singular Name"
+msgid "Job"
+msgstr ""
+
+#: post-types/jobs/jobs.php:15
+msgid "Jobs"
+msgstr ""
+
+#: post-types/jobs/jobs.php:17
+msgid "Job Archives"
+msgstr ""
+
+#: post-types/jobs/jobs.php:18
+msgid "Job Attributes"
+msgstr ""
+
+#: post-types/jobs/jobs.php:19
+msgid "Parent Job:"
+msgstr ""
+
+#: post-types/jobs/jobs.php:20
+msgid "All Jobs"
+msgstr ""
+
+#: post-types/jobs/jobs.php:21 post-types/offices/offices.php:21
+#: post-types/projects/projects.php:24 post-types/projects/projects.php:92
+#: post-types/team/team.php:21
+msgid "Add New Item"
+msgstr ""
+
+#: post-types/jobs/jobs.php:22
+msgid "Add New Job"
+msgstr ""
+
+#: post-types/jobs/jobs.php:23
+msgid "New Job"
+msgstr ""
+
+#: post-types/jobs/jobs.php:24
+msgid "Edit Job"
+msgstr ""
+
+#: post-types/jobs/jobs.php:25
+msgid "Update Job"
+msgstr ""
+
+#: post-types/jobs/jobs.php:26
+msgid "View Job"
+msgstr ""
+
+#: post-types/jobs/jobs.php:27
+msgid "View Jobs"
+msgstr ""
+
+#: post-types/jobs/jobs.php:28
+msgid "Search Job"
+msgstr ""
+
+#: post-types/jobs/jobs.php:29 post-types/offices/offices.php:29
+#: post-types/projects/projects.php:32 post-types/team/team.php:29
+msgid "Not found"
+msgstr ""
+
+#: post-types/jobs/jobs.php:30 post-types/offices/offices.php:30
+#: post-types/projects/projects.php:33 post-types/team/team.php:30
+msgid "Not found in Trash"
+msgstr ""
+
+#: post-types/jobs/jobs.php:31
+msgid "Featured Image"
+msgstr ""
+
+#: post-types/jobs/jobs.php:32
+msgid "Set featured image"
+msgstr ""
+
+#: post-types/jobs/jobs.php:33
+msgid "Remove featured image"
+msgstr ""
+
+#: post-types/jobs/jobs.php:34
+msgid "Use as featured image"
+msgstr ""
+
+#: post-types/jobs/jobs.php:35 post-types/offices/offices.php:35
+#: post-types/projects/projects.php:38 post-types/team/team.php:35
+msgid "Insert into item"
+msgstr ""
+
+#: post-types/jobs/jobs.php:36 post-types/offices/offices.php:36
+#: post-types/projects/projects.php:39 post-types/team/team.php:36
+msgid "Uploaded to this item"
+msgstr ""
+
+#: post-types/jobs/jobs.php:37 post-types/offices/offices.php:37
+#: post-types/projects/projects.php:40 post-types/projects/projects.php:103
+#: post-types/team/team.php:37
+msgid "Items list"
+msgstr ""
+
+#: post-types/jobs/jobs.php:38 post-types/offices/offices.php:38
+#: post-types/projects/projects.php:41 post-types/projects/projects.php:104
+#: post-types/team/team.php:38
+msgid "Items list navigation"
+msgstr ""
+
+#: post-types/jobs/jobs.php:39 post-types/offices/offices.php:39
+#: post-types/projects/projects.php:42 post-types/team/team.php:39
+msgid "Filter items list"
+msgstr ""
+
+#: post-types/jobs/jobs.php:81 post-types/offices/offices.php:165
+#: post-types/projects/projects.php:128 post-types/team/team.php:81
+msgid "Data"
+msgstr ""
+
+#: post-types/jobs/jobs.php:85 post-types/projects/projects.php:289
+msgid "External URL"
+msgstr ""
+
+#: post-types/jobs/jobs.php:86
+msgid "External page to link to for the job opening. Filling this field, will prevent users from accessing the standard single job page."
+msgstr ""
+
+#: post-types/offices/helpers.php:11
+msgid "Email"
+msgstr ""
+
+#: post-types/offices/helpers.php:12
+msgid "Phone"
+msgstr ""
+
+#: post-types/offices/helpers.php:13
+msgid "FAX"
+msgstr ""
+
+#: post-types/offices/helpers.php:14
+msgid "Skype"
+msgstr ""
+
+#: post-types/offices/offices.php:13
+msgctxt "Post Type General Name"
+msgid "Offices"
+msgstr ""
+
+#: post-types/offices/offices.php:14
+msgctxt "Post Type Singular Name"
+msgid "Office"
+msgstr ""
+
+#: post-types/offices/offices.php:15 post-types/offices/offices.php:84
+msgid "Offices"
+msgstr ""
+
+#: post-types/offices/offices.php:17
+msgid "Office Archives"
+msgstr ""
+
+#: post-types/offices/offices.php:18
+msgid "Office Attributes"
+msgstr ""
+
+#: post-types/offices/offices.php:19
+msgid "Parent Office:"
+msgstr ""
+
+#: post-types/offices/offices.php:20
+msgid "All Offices"
+msgstr ""
+
+#: post-types/offices/offices.php:22
+msgid "Add New Office"
+msgstr ""
+
+#: post-types/offices/offices.php:23
+msgid "New Office"
+msgstr ""
+
+#: post-types/offices/offices.php:24
+msgid "Edit Office"
+msgstr ""
+
+#: post-types/offices/offices.php:25
+msgid "Update Office"
+msgstr ""
+
+#: post-types/offices/offices.php:26
+msgid "View Office"
+msgstr ""
+
+#: post-types/offices/offices.php:27
+msgid "View Offices"
+msgstr ""
+
+#: post-types/offices/offices.php:28
+msgid "Search Office"
+msgstr ""
+
+#: post-types/offices/offices.php:31
+msgid "Office Image"
+msgstr ""
+
+#: post-types/offices/offices.php:32
+msgid "Set office image"
+msgstr ""
+
+#: post-types/offices/offices.php:33
+msgid "Remove office image"
+msgstr ""
+
+#: post-types/offices/offices.php:34
+msgid "Use as office image"
+msgstr ""
+
+#: post-types/offices/offices.php:82
+msgctxt "Taxonomy General Name"
+msgid "Offices"
+msgstr ""
+
+#: post-types/offices/offices.php:83
+msgctxt "Taxonomy Singular Name"
+msgid "Offices"
+msgstr ""
+
+#: post-types/offices/offices.php:169
+msgid "Address"
+msgstr ""
+
+#: post-types/offices/offices.php:170
+msgid "Full address of the office."
+msgstr ""
+
+#: post-types/offices/offices.php:179
+msgid "Coordinates"
+msgstr ""
+
+#: post-types/offices/offices.php:180
+msgid "Latitude & longitude of the office phisical location."
+msgstr ""
+
+#: post-types/offices/offices.php:188 post-types/projects/projects.php:197
+msgid "Meta data"
+msgstr ""
+
+#: post-types/offices/offices.php:189 post-types/projects/projects.php:198
+msgid "A set of key/value pairs."
+msgstr ""
+
+#: post-types/offices/offices.php:201 post-types/projects/projects.php:210
+msgid "Meta"
+msgstr ""
+
+#: post-types/offices/offices.php:213 post-types/projects/projects.php:222
+msgid "Value"
+msgstr ""
+
+#: post-types/projects/helpers.php:27
+msgid "Year"
+msgstr ""
+
+#: post-types/projects/helpers.php:28
+msgid "Client"
+msgstr ""
+
+#: post-types/projects/helpers.php:29 post-types/team/team.php:85
+msgid "Role"
+msgstr ""
+
+#: post-types/projects/helpers.php:51
+msgid "Project Category: %s"
+msgstr ""
+
+#: post-types/projects/helpers.php:323
+msgid "Filtering by"
+msgstr ""
+
+#: post-types/projects/projects.php:16
+msgctxt "Post Type General Name"
+msgid "Projects"
+msgstr ""
+
+#: post-types/projects/projects.php:17
+msgctxt "Post Type Singular Name"
+msgid "Project"
+msgstr ""
+
+#: post-types/projects/projects.php:18
+msgid "Projects"
+msgstr ""
+
+#: post-types/projects/projects.php:19 post-types/projects/projects.php:53
+msgid "Project"
+msgstr ""
+
+#: post-types/projects/projects.php:20
+msgid "Project Archives"
+msgstr ""
+
+#: post-types/projects/projects.php:21
+msgid "Project Attributes"
+msgstr ""
+
+#: post-types/projects/projects.php:22
+msgid "Parent Project:"
+msgstr ""
+
+#: post-types/projects/projects.php:23
+msgid "All Projects"
+msgstr ""
+
+#: post-types/projects/projects.php:25
+msgid "Add New Project"
+msgstr ""
+
+#: post-types/projects/projects.php:26
+msgid "New Project"
+msgstr ""
+
+#: post-types/projects/projects.php:27
+msgid "Edit Project"
+msgstr ""
+
+#: post-types/projects/projects.php:28
+msgid "Update Project"
+msgstr ""
+
+#: post-types/projects/projects.php:29
+msgid "View Project"
+msgstr ""
+
+#: post-types/projects/projects.php:30
+msgid "View Projects"
+msgstr ""
+
+#: post-types/projects/projects.php:31
+msgid "Search Project"
+msgstr ""
+
+#: post-types/projects/projects.php:34
+msgid "Project Image"
+msgstr ""
+
+#: post-types/projects/projects.php:35
+msgid "Set project image"
+msgstr ""
+
+#: post-types/projects/projects.php:36
+msgid "Remove project image"
+msgstr ""
+
+#: post-types/projects/projects.php:37
+msgid "Use as project image"
+msgstr ""
+
+#: post-types/projects/projects.php:85
+msgctxt "Taxonomy General Name"
+msgid "Project Categories"
+msgstr ""
+
+#: post-types/projects/projects.php:86
+msgctxt "Taxonomy Singular Name"
+msgid "Project Category"
+msgstr ""
+
+#: post-types/projects/projects.php:87
+msgid "Project Categories"
+msgstr ""
+
+#: post-types/projects/projects.php:88
+msgid "All Items"
+msgstr ""
+
+#: post-types/projects/projects.php:89
+msgid "Parent Item"
+msgstr ""
+
+#: post-types/projects/projects.php:90
+msgid "Parent Item:"
+msgstr ""
+
+#: post-types/projects/projects.php:91
+msgid "New Item Name"
+msgstr ""
+
+#: post-types/projects/projects.php:93
+msgid "Edit Item"
+msgstr ""
+
+#: post-types/projects/projects.php:94
+msgid "Update Item"
+msgstr ""
+
+#: post-types/projects/projects.php:95
+msgid "View Item"
+msgstr ""
+
+#: post-types/projects/projects.php:96
+msgid "Separate items with commas"
+msgstr ""
+
+#: post-types/projects/projects.php:97
+msgid "Add or remove items"
+msgstr ""
+
+#: post-types/projects/projects.php:98
+msgid "Choose from the most used"
+msgstr ""
+
+#: post-types/projects/projects.php:99
+msgid "Popular Items"
+msgstr ""
+
+#: post-types/projects/projects.php:100
+msgid "Search Items"
+msgstr ""
+
+#: post-types/projects/projects.php:101
+msgid "Not Found"
+msgstr ""
+
+#: post-types/projects/projects.php:102
+msgid "No items"
+msgstr ""
+
+#: post-types/projects/projects.php:132
+msgid "Color"
+msgstr ""
+
+#: post-types/projects/projects.php:133
+msgid "Accent color for the project. Suggested colors are extracted from the selected project image."
+msgstr ""
+
+#: post-types/projects/projects.php:138
+msgid "Layout"
+msgstr ""
+
+#: post-types/projects/projects.php:139
+msgid "The layout for the project page."
+msgstr ""
+
+#: post-types/projects/projects.php:148
+msgid "Header skin"
+msgstr ""
+
+#: post-types/projects/projects.php:152
+msgid "Dark text"
+msgstr ""
+
+#: post-types/projects/projects.php:153
+msgid "Light text"
+msgstr ""
+
+#: post-types/projects/projects.php:161
+msgid "Full width page content"
+msgstr ""
+
+#: post-types/projects/projects.php:162
+msgid "Extend the page content width."
+msgstr ""
+
+#: post-types/projects/projects.php:169
+msgid "Featured image size"
+msgstr ""
+
+#: post-types/projects/projects.php:170
+msgid "Image size used for the project image used in the header."
+msgstr ""
+
+#: post-types/projects/projects.php:179
+msgid "Video"
+msgstr ""
+
+#: post-types/projects/projects.php:180
+msgid "URL to a video of the project."
+msgstr ""
+
+#: post-types/projects/projects.php:188
+msgid "Use video instead of featured image"
+msgstr ""
+
+#: post-types/projects/projects.php:189
+msgid "In the single project page, use the video instead of the featured image."
+msgstr ""
+
+#: post-types/projects/projects.php:235
+msgid "Subtitle"
+msgstr ""
+
+#: post-types/projects/projects.php:236
+msgid "Displayed under the project title."
+msgstr ""
+
+#: post-types/projects/projects.php:240
+msgid "Project categories"
+msgstr ""
+
+#: post-types/projects/projects.php:241
+msgid "Project metas"
+msgstr ""
+
+#: post-types/projects/projects.php:242
+msgid "Text"
+msgstr ""
+
+#: post-types/projects/projects.php:250
+msgid "Subtitle metas"
+msgstr ""
+
+#: post-types/projects/projects.php:260
+msgid "Subtitle text"
+msgstr ""
+
+#: post-types/projects/projects.php:269
+msgid "Display share block"
+msgstr ""
+
+#: post-types/projects/projects.php:270
+msgid "Check this to display share links."
+msgstr ""
+
+#: post-types/projects/projects.php:279
+msgid "Display projects navigation"
+msgstr ""
+
+#: post-types/projects/projects.php:280
+msgid "Check this to display navigation links to the previous and next projects."
+msgstr ""
+
+#: post-types/projects/projects.php:290
+msgid "External page to link to for the project. Filling this field, will prevent users from accessing the standard single project page."
+msgstr ""
+
+#: post-types/team/helpers.php:11
+msgid "Facebook"
+msgstr ""
+
+#: post-types/team/helpers.php:12
+msgid "Twitter"
+msgstr ""
+
+#: post-types/team/team.php:13
+msgctxt "Post Type General Name"
+msgid "Team Members"
+msgstr ""
+
+#: post-types/team/team.php:14
+msgctxt "Post Type Singular Name"
+msgid "Team Member"
+msgstr ""
+
+#: post-types/team/team.php:16 post-types/team/team.php:50
+msgid "Team Member"
+msgstr ""
+
+#: post-types/team/team.php:17
+msgid "Team Member Archives"
+msgstr ""
+
+#: post-types/team/team.php:18
+msgid "Team Member Attributes"
+msgstr ""
+
+#: post-types/team/team.php:19
+msgid "Parent Team Member:"
+msgstr ""
+
+#: post-types/team/team.php:20
+msgid "All Team Members"
+msgstr ""
+
+#: post-types/team/team.php:22
+msgid "Add New Team Member"
+msgstr ""
+
+#: post-types/team/team.php:23
+msgid "New Team Member"
+msgstr ""
+
+#: post-types/team/team.php:24
+msgid "Edit Team Member"
+msgstr ""
+
+#: post-types/team/team.php:25
+msgid "Update Team Member"
+msgstr ""
+
+#: post-types/team/team.php:26
+msgid "View Team Member"
+msgstr ""
+
+#: post-types/team/team.php:27
+msgid "View Team Members"
+msgstr ""
+
+#: post-types/team/team.php:28
+msgid "Search Team Member"
+msgstr ""
+
+#: post-types/team/team.php:31
+msgid "Team Member Photo"
+msgstr ""
+
+#: post-types/team/team.php:32
+msgid "Set Team Member photo"
+msgstr ""
+
+#: post-types/team/team.php:33
+msgid "Remove Team Member photo"
+msgstr ""
+
+#: post-types/team/team.php:34
+msgid "Use as Team Member photo"
+msgstr ""
+
+#: post-types/team/team.php:86
+msgid "The role of the team member in the company."
+msgstr ""
+
+#: post-types/team/team.php:94
+msgid "Bio"
+msgstr ""
+
+#: post-types/team/team.php:95
+msgid "In team blocks, display a link to the single team member page."
+msgstr ""
+
+#: post-types/team/team.php:105
+msgid "Image"
+msgstr ""
+
+#: post-types/team/team.php:106
+msgid "Used in team loops."
+msgstr ""
+
+#: sidebars/helpers.php:106
+msgid "Sidebar"
+msgstr ""
+
+#: sidebars/helpers.php:110
+msgid "Select which sidebar to use in this context."
+msgstr ""
+
+#: sidebars/helpers.php:114
+msgid "No sidebar"
+msgstr ""
+
+#: sidebars/helpers.php:118
+msgid "Inherit from language"
+msgstr ""
+
+#: sidebars/helpers.php:119
+msgid "Right"
+msgstr ""
+
+#: sidebars/helpers.php:120
+msgid "Left"
+msgstr ""
+
+#: sidebars/helpers.php:145
+msgid "Position"
+msgstr ""
+
+#: sidebars/helpers.php:146
+msgid "Content will be displayed on the opposite side."
+msgstr ""
+
+#: sidebars/sidebars.php:24
+msgid "Please add a name for the sidebar"
+msgstr ""
+
+#: sidebars/sidebars.php:25
+msgid "Are you sure?"
+msgstr ""
+
+#: sidebars/templates/manager.php:3
+msgid "Register a widget area"
+msgstr ""
+
+#: sidebars/templates/manager.php:6
+msgid "Insert the name of the widget area"
+msgstr ""
+
+#: sidebars/templates/manager.php:7
+msgid "Register"
+msgstr ""
+
+#: sidebars/templates/manager.php:16
+msgid "User-registered widget areas"
+msgstr ""
+
+#: sidebars/templates/manager.php:22
+msgid "Name"
+msgstr ""
+
+#: sidebars/templates/manager.php:31
+msgid "Remove"
+msgstr ""
+
+#: widgets/office_widget.php:28
+msgid "Agncy Office Widget"
+msgstr ""
+
+#: widgets/office_widget.php:29
+msgid "Display office information."
+msgstr ""
+
+#: widgets/office_widget.php:142 widgets/social_widget.php:100
+msgid "Title:"
+msgstr ""
+
+#: widgets/social_widget.php:28
+msgid "Agncy Social Widget"
+msgstr ""
+
+#: widgets/social_widget.php:29
+msgid "Display your social networks links."
+msgstr ""
+
+#: widgets/social_widget.php:106
+msgid "A comma-separated list of social network names. Pick one from: %s."
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Agncy Companion Plugin"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Agncy theme companion plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Evolve Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://justevolve.it/"
+msgstr ""

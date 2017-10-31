@@ -1,0 +1,21 @@
+# BEGIN WP Hide & Security Enhancer
+<IfModule mod_rewrite.c> 
+RewriteEngine On 
+RewriteBase /agency/ 
+#WriteCheckString:1505883732_70321
+RewriteRule .* - [E=HTTP_MOD_REWRITE:On]
+</IfModule> 
+
+# END WP Hide & Security Enhancer
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /agency/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /agency/index.php [L]
+</IfModule>
+
+# END WordPress

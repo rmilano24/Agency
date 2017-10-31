@@ -1,0 +1,37 @@
+@import "../libs";
+
+// -----------------------------------------------------------------------------
+// $Bundle
+// -----------------------------------------------------------------------------
+
+.brix-field-bundle {
+	.brix-bundle-fields-wrapper {
+		@include clearfix;
+		border: 1px solid $grey_1;
+		border-radius: $radius;
+
+		.brix-field:first-of-type {
+			.brix-field-inner-wrapper {
+				border-top: none !important;
+			}
+		}
+	}
+
+	&:hover {
+		.brix-bundle-fields-wrapper {
+			border-color: $grey_3;
+		}
+	}
+
+	.brix-field {
+		.brix-field-header {
+			.brix-help {
+				font-size: 12px;
+			}
+
+			.brix-label {
+				font-size: 13px;
+			}
+		}
+	}
+}

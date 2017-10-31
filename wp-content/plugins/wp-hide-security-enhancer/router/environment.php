@@ -1,0 +1,2 @@
+<?php if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+$environment_variable = '{"theme":{"folder_name":"agncy","mapped_name":null},"allowed_paths":["\/Users\/rpm\/Sites\/agency\/wp-content\/themes"],"cache_path":"\/Users\/rpm\/Sites\/agency\/wp-content\/cache\/wph\/","site_wordpress_relative_path":"\/agency\/","wordpress_directory":"","site_relative_path":"\/agency"}' ?>

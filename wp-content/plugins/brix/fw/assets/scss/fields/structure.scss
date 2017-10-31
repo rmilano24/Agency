@@ -1,0 +1,296 @@
+@import "../libs";
+
+// -----------------------------------------------------------------------------
+// $Field structure
+// -----------------------------------------------------------------------------
+
+.brix-field {
+	display: block;
+	float: left;
+	@include box-sizing( border-box );
+	padding: 0 $gutter;
+
+	// &:not( .brix-field-divider ) + .brix-field:not( .brix-field-divider ) {
+	// 	.brix-field-inner-wrapper {
+	// 		border-top: 1px solid $grey_1;
+	// 	}
+	// }
+
+	.brix-field-inner-wrapper {
+		@include clearfix;
+		@include box-sizing( border-box );
+		padding: $baseline 0;
+	}
+
+	.brix-field-input-size-full {
+		width: 100%;
+	}
+
+	&.brix-hidden {
+		display: none;
+	}
+
+	// 100% width
+	&.brix-field-size-full {
+		width: 100%;
+		clear: both;
+	}
+
+	// 1/2 width
+	&.brix-field-size-large,
+	&.brix-field-size-one-half,
+	&.brix-field-size-two-fourths {
+		width: _brix_col( 1/2 );
+
+		@include brix_media( $media_mobile ) {
+			width: _brix_col( 1/1 );
+		}
+	}
+
+	// 1/3 width
+	&.brix-field-size-medium,
+	&.brix-field-size-one-third {
+		width: _brix_col( 1/3 );
+
+		@include brix_media( $media_mobile ) {
+			width: _brix_col( 1/1 );
+		}
+	}
+
+	// 2/3 width
+	&.brix-field-size-two-thirds {
+		width: _brix_col( 2/3 );
+
+		@include brix_media( $media_tablet ) {
+			width: _brix_col( 1/2 );
+		}
+
+		@include brix_media( $media_mobile ) {
+			width: _brix_col( 1/1 );
+		}
+	}
+
+	// 1/4 width
+	&.brix-field-size-small,
+	&.brix-field-size-one-fourth {
+		width: _brix_col( 1/4 );
+
+		@include brix_media( $media_tablet ) {
+			width: _brix_col( 1/2 );
+		}
+
+		@include brix_media( $media_mobile ) {
+			width: _brix_col( 1/1 );
+		}
+	}
+
+	// 3/4 width
+	&.brix-field-size-three-fourths {
+		width: _brix_col( 3/4 );
+
+		@include brix_media( $media_tablet ) {
+			width: _brix_col( 1/2 );
+		}
+
+		@include brix_media( $media_mobile ) {
+			width: _brix_col( 1/1 );
+		}
+	}
+
+	// Break field
+	&.brix-field-break {
+		float: none;
+		clear: both;
+	}
+
+	.brix-field-inner {
+		@include clearfix();
+
+		p {
+			margin: 0;
+		}
+	}
+}
+
+// -----------------------------------------------------------------------------
+// $Label
+// -----------------------------------------------------------------------------
+
+.brix-field-header {
+	@include box-sizing( border-box );
+
+	.brix-label {
+		font-weight: bold;
+		font-size: $main_fsz;
+		color: $grey_6;
+		cursor: default;
+		display: block;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	&.brix-field-header-label-inline,
+	&.brix-field-header-label-inline-hidden {
+		// display: inline-block;
+		float: left;
+		width: 30%;
+		max-width: 220px;
+
+		@include brix_media( $media_mobile ) {
+			width: 100%;
+			margin-top: 0;
+		}
+
+		+ .brix-container {
+			display: inline-block;
+			width: 70%;
+			@include box-sizing( border-box );
+			padding-left: $gutter;
+
+			@include brix_media( $media_mobile ) {
+				width: 100%;
+				padding-left: 0;
+				padding-top: $baseline/2;
+			}
+		}
+	}
+
+	&.brix-field-header-label-inline-hidden {
+		margin-top: 0;
+		min-height: 1px;
+	}
+
+	&.brix-field-header-label-block {
+		width: 100%;
+		@include clearfix;
+		margin-bottom: $baseline/2;
+
+		.brix-label {
+			display: block;
+		}
+	}
+
+	&.brix-field-header-label-inline-hidden,
+	&.brix-field-header-label-hidden {
+		.brix-label {
+			display: none;
+		}
+
+		.brix-help-inline {
+			padding-top: 0;
+		}
+	}
+
+	&.brix-field-header-label-hidden {
+		.brix-help-inline {
+			margin-bottom: $baseline/2;
+		}
+	}
+}
+
+// -----------------------------------------------------------------------------
+// $Help
+// -----------------------------------------------------------------------------
+
+.brix-help {
+	color: $grey_4;
+
+	&.brix-help-tooltip,
+	&.brix-help-popup {
+		display: inline-block;
+
+		.brix-help-handle span {
+			&:before {
+				@include icon( "\f223" );
+				display: block;
+				float: right;
+				font-size: 20px;
+				top: -1px;
+				position: relative;
+				margin-left: $gutter/4;
+				color: $grey_3;
+			}
+		}
+	}
+
+	&.brix-help-tooltip {
+		cursor: help;
+	}
+
+	&.brix-help-popup {
+		cursor: pointer;
+	}
+
+	.brix-help-popup-text {
+		display: none;
+	}
+
+	&.brix-help-inline {
+		display: block;
+		clear: both;
+		padding-top: $baseline/4;
+
+		strong,
+		b {
+			color: $grey_6;
+		}
+	}
+}
+
+[data-key="brix-help-popup"] {
+	@include align-items(center);
+	@include display(flex);
+	@include flex-direction(row);
+	@include justify-content(center);
+
+	.brix-modal-wrapper {
+		@include position( relative, auto auto auto auto );
+		border-radius: $radius;
+		width: 400px;
+		height: 300px;
+		padding: $gutter;
+		font-size: $big_fsz;
+		line-height: 1.5;
+	}
+
+	@include brix_media( $media_mobile ) {
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+
+		.brix-modal-wrapper {
+			@include position( absolute, $admin_bar_mobile 0 $admin_bar_mobile 0 );
+			padding-top: $modal_header_height;
+			padding-bottom: $modal_footer_height;
+			background-color: $white;
+			border-radius: 0;
+			width: auto !important;
+			height: auto !important;
+
+			.brix-modal-wrapper-inner {
+				border-top: 1px solid $grey_1;
+				border-bottom: 1px solid $grey_1;
+				width: 100% !important;
+				height: 100% !important;
+				position: relative;
+			}
+		}
+	}
+
+	.brix-modal-close {
+		top: -$baseline*1.5;
+		margin-right: 0;
+		padding-top: 0;
+		color: $white;
+
+		@include brix_media( $media_mobile ) {
+			color: $grey_6;
+			margin-right: $gutter;
+			top: $baseline/2;
+		}
+
+		&:hover {
+			color: rgba( $white, .5 );
+		}
+	}
+}

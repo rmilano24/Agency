@@ -1,0 +1,441 @@
+@import "../libs";
+
+// TODO: rimuovere dopo migrazione
+$lime             : #D9EB3D;
+$lime_light       : #F3F5E5;
+$lime_dark        : #B3C322;
+
+$grey_blue        : #3E6274;
+$grey_blue_light  : #5D7E8E;
+$grey_blue_light_1: #A7B6BE;
+$grey_blue_light_2: #B8C5CC;
+$grey_blue_lighter: #F5F6F7;
+
+// -----------------------------------------------------------------------------
+// $Icon picker
+// -----------------------------------------------------------------------------
+
+.brix-selected-icon-wrapper {
+	position: relative;
+	@include size( $baseline*1.5 );
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	@include ui_input_standard;
+	border-radius: $radius;
+	padding: 5px;
+	box-sizing: border-box;
+
+	&:hover {
+		@include ui_input_hover;
+	}
+
+	.brix-icon {
+		max-width: 100%;
+		max-height: 100%;
+		@include size( auto );
+		// width: 24px;
+		// height: 24px;
+		// margin-top: 6px;
+	}
+
+	&.brix-empty {
+		background-color: $grey_0;
+
+		&:before {
+			content: "";
+			display: block;
+			@include size( $baseline - 4 );
+			border: 2px dashed $grey_3;
+			// margin-top: $baseline/4 - 2;
+			// margin-left: $baseline/4 - 2;
+		}
+
+		&:hover {
+			&:before {
+				border-color: $grey_3;
+			}
+		}
+
+		.brix-icon {
+			display: none;
+		}
+
+		.brix-icon-remove {
+			display: none;
+		}
+	}
+
+	&.brix-icon-inline {
+		@include size( 62px );
+		padding: 7px;
+		@include display( flex );
+		@include justify-content( center );
+		@include align-items( center );
+		margin-right: $gutter;
+
+		&.brix-empty {
+			&:before {
+				@include size( 42px );
+			}
+		}
+	}
+
+	.brix-icon-remove {
+		text-decoration: none;
+		display: none;
+		@include position( absolute, -4px -4px null null );
+		z-index: 10;
+
+		&:before {
+			cursor: pointer;
+			color: $grey_5;
+			@include icon( "\f153" );
+			@include size( 16px );
+			font-size: 16px;
+			line-height: 16px;
+			background-color: $white;
+			border-radius: 50%;
+		}
+
+		&:hover:before {
+			color: $red;
+		}
+	}
+
+	&:hover:not( .brix-empty ) {
+		.brix-icon-remove {
+			display: block;
+		}
+	}
+}
+
+// -----------------------------------------------------------------------------
+// $Modal
+// -----------------------------------------------------------------------------
+
+.brix-icon-sets-external-wrapper {
+	@include position( absolute, ( $modal_header_height + 1px ) 0 ( $modal_footer_height + 1 ) 0 );
+	overflow-y: auto;
+}
+
+// -----------------------------------------------------------------------------
+// $Search
+// -----------------------------------------------------------------------------
+
+.brix-icon-search-wrapper {
+	padding: $baseline $gutter;
+
+	input {
+		width: 100%;
+	}
+}
+
+// -----------------------------------------------------------------------------
+// $Preview
+// -----------------------------------------------------------------------------
+
+.brix-empty-icon-message-wrapper {
+	box-sizing: border-box;
+	text-align: center;
+	background: lightYellow;
+
+	.brix-icon-selected & {
+		display: none;
+	}
+
+	p {
+		margin: 0;
+		line-height: 80px;
+	}
+}
+
+.brix-icon-preview-wrapper {
+	position: relative;
+	@include clearfix();
+	min-height: 80px;
+
+	&.brix-icon-selected {
+		display: none;
+
+		.brix-icon-loaded-in-modal & {
+			display: block;
+		}
+	}
+
+	+ .brix-icon-search-wrapper {
+		border-top: none;
+	}
+
+	&.brix-icon-selected + .brix-icon-search-wrapper {
+		.brix-icon-loaded-in-modal & {
+			border-top: 1px solid $grey_1;
+		}
+	}
+
+	.brix-icon-wrapper {
+		float: left;
+		@include size( $gutter*4 );
+		padding: $gutter;
+		box-sizing: border-box;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		// @include display( flex );
+		// @include flex-direction( column );
+		// @include justify-content( center );
+
+		&.brix-empty-icon {
+			display: none;
+		}
+
+		.brix-icon {
+			margin: 0 auto;
+			position: relative;
+			@include size( auto );
+			max-height: 100%;
+			max-width: 100%;
+			display: inline-block;
+		}
+	}
+}
+
+.brix-icon-preview-toggle {
+	@include position( absolute, $gutter $gutter null null );
+	display: none;
+	background: $grey_blue;
+	color: $white;
+	border-radius: $radius;
+	cursor: pointer;
+	padding: 4px 8px;
+	@include brix-transition( box-shadow $transition_time ease );
+
+	&:hover {
+		@include box-shadow( 0px 2px 3px rgba(#000,.2) );
+	}
+
+	.brix-icon-selected & {
+		display: block;
+	}
+}
+
+.brix-icon-preview-data {
+	padding: $gutter;
+
+	&.brix-empty-icon {
+		display: none;
+	}
+
+	.brix-icon-font-set {
+		margin: 0;
+		text-transform: uppercase;
+		font-size: 10px;
+		color: $grey_3;
+	}
+
+	.brix-icon-name {
+		margin: 0;
+		font-size: 14px;
+	}
+}
+
+.brix-icon-sets-controls-external-wrapper {
+	clear: both;
+	padding: $gutter/2 $gutter $gutter;
+	@include clearfix();
+	display: none;
+
+	.brix-icon-controls-active & {
+		display: block;
+	}
+}
+
+.brix-icon-sets-controls-field-wrapper {
+	width: 50%;
+	float: left;
+
+	label {
+		font-weight: bold;
+		font-size: $main_fsz;
+		color: $grey_6;
+		cursor: default;
+		display: block;
+		margin-bottom: $baseline/3;
+	}
+}
+
+// -----------------------------------------------------------------------------
+// $Icon set
+// -----------------------------------------------------------------------------
+
+$icn: 24;
+$icon_size: $icn + ( $baseline/2 * 2 );
+
+.brix-icon-set {
+	@include clearfix();
+	border-top: 1px solid $grey_1;
+
+	&.brix-on {
+		h2 {
+			&:after {
+				display: block;
+			}
+
+			&:before {
+				@include transform( rotate( 180deg ) );
+				border-top-color: $grey_6;
+			}
+		}
+	}
+
+	h2 {
+		cursor: pointer;
+		@include clearfix();
+		padding: $baseline/2 $gutter;
+		margin: 0;
+		font-size: 14px;
+		position: relative;
+		line-height: 24px;
+		@include transition( background-color $transition_time ease );
+
+		&:before {
+			content: "";
+			display: block;
+			@include triangle( 8px, $grey_3, down );
+			float: left;
+			margin-right: $gutter/2;
+			top: 10px;
+			position: relative;
+			@include transition( border-color $transition_time ease );
+		}
+
+		&:hover {
+			background-color: $grey_0;
+
+			&:before {
+				border-top-color: $grey_6;
+			}
+		}
+
+		&:after {
+			content: "";
+			display: none;
+			height: 1px;
+			border-bottom: 1px dashed $grey_1;
+			@include position( absolute, null $gutter 0 $gutter );
+		}
+
+		span {
+			float: right;
+			font-size: 10px;
+			line-height: 24px;
+			background-color: $grey_1;
+			color: $grey_4;
+			padding: 0 8px;
+			border-radius: 50em;
+			display: inline-block;
+
+			.brix-searching & {
+				background-color: $lime;
+				color: $grey_blue;
+			}
+		}
+	}
+}
+
+.brix-icon-sets {
+	clear: both;
+	@include clearfix;
+	overflow-y: auto;
+	@include box-shadow( 0 1px 0 $grey_1 );
+
+	.brix-icon-set-icons {
+		display: none;
+		@include clearfix();
+		padding: $baseline/2 $gutter;
+	}
+
+	.brix-icon-set.brix-on {
+		.brix-icon-set-icons {
+			display: block;
+		}
+	}
+
+	.brix-icon-set-icon {
+		padding: $baseline/2;
+		@include size( $icon_size );
+		float: left;
+		box-sizing: border-box;
+		@include transform( scale( 1 ) );
+		@include brix-transition( transform $transition_time ease, box-shadow $transition_time ease, background-color $transition_time ease, opacity $transition_time ease );
+		opacity: .5;
+		position: relative;
+		border-radius: $radius;
+		cursor: pointer;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		// @include display( flex );
+		// @include flex-direction( column );
+		// @include justify-content( center );
+
+		&:hover {
+			background-color: $grey_2;
+			opacity: 1;
+		}
+
+		&.brix-selected {
+			@include box-shadow( inset 0 0 0 3px $lime_dark, 0 3px 6px rgba( #000, .1 ), 0 7px 14px rgba( #000, .1 ) );
+			@include transform( scale( 1.2 ) );
+			z-index: 10;
+			opacity: .8;
+			background-color: $lime;
+
+			&:hover {
+				opacity: 1;
+				background-color: $lime;
+				@include box-shadow( inset 0 0 0 5px $lime_dark, 0 3px 6px rgba( #000, .1 ), 0 7px 14px rgba( #000, .1 ) );
+			}
+		}
+	}
+
+	img {
+		margin: 0 auto;
+		z-index: 1;
+		position: relative;
+		@include size( auto );
+		max-height: 100%;
+		max-width: 100%;
+		display: inline-block;
+	}
+
+	&.brix-searching .brix-icon-set-icon {
+		display: none;
+
+		&.brix-found {
+			display: block;
+		}
+	}
+}
+
+// -----------------------------------------------------------------------------
+// $Inline
+// -----------------------------------------------------------------------------
+.brix-icon-inline-fields-wrapper {
+	display: inline-block;
+
+	> span {
+		float: left;
+
+		&:first-of-type {
+			margin-right: $gutter;
+		}
+
+		label {
+			display: block;
+			margin-bottom: $baseline/4;
+		}
+	}
+}

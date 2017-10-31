@@ -1,0 +1,39 @@
+@import "../libs";
+
+// -----------------------------------------------------------------------------
+// $Divider
+// -----------------------------------------------------------------------------
+
+.brix-field-divider {
+	h3 {
+		display: inline-block;
+		font-size: 24px !important;
+		margin: 0;
+		padding: 0 !important;
+		color: $green_2;
+	}
+
+	// Section break
+	&.brix-divider-style-section_break {
+		background-color: $green_0;
+		// border-top: 1px solid $grey_1;
+		// border-bottom: 1px solid $grey_1;
+
+		h3 {
+			padding: $baseline 0 0 0 !important;
+		}
+	}
+
+	// In page divider
+	&.brix-divider-style-in_page {
+
+		.brix-field-inner-wrapper {
+			padding-bottom: $baseline/2;
+			border-bottom: 4px solid $green_0;
+		}
+	}
+}
+
+.brix-tab form .brix-field-divider.brix-divider-style-section_break:first-of-type {
+	border-top: none;
+}

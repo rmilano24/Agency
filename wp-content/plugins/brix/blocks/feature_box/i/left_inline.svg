@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="37px" viewBox="0 0 48 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>left_inline</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="feature-box" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="left_inline" sketch:type="MSArtboardGroup" fill="#3E6274">
+            <path d="M0,1.99406028 C0,0.892771196 0.894513756,0 1.99406028,0 L14.0059397,0 C15.1072288,0 16,0.894513756 16,1.99406028 L16,14.0059397 C16,15.1072288 15.1054862,16 14.0059397,16 L1.99406028,16 C0.892771196,16 0,15.1054862 0,14.0059397 L0,1.99406028 Z M3,3 L13,3 L13,13 L3,13 L3,3 Z" id="Rectangle-1" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-3" sketch:type="MSShapeGroup" x="21" y="0" width="27" height="2"></rect>
+            <rect id="Rectangle-3" sketch:type="MSShapeGroup" x="21" y="5" width="27" height="2"></rect>
+            <rect id="Rectangle-3" sketch:type="MSShapeGroup" x="21" y="10" width="27" height="2"></rect>
+            <rect id="Rectangle-3" sketch:type="MSShapeGroup" x="0" y="20" width="48" height="2"></rect>
+            <rect id="Rectangle-3" sketch:type="MSShapeGroup" x="0" y="25" width="48" height="2"></rect>
+            <rect id="Rectangle-3" sketch:type="MSShapeGroup" x="0" y="30" width="48" height="2"></rect>
+            <rect id="Rectangle-3" sketch:type="MSShapeGroup" x="0" y="35" width="48" height="2"></rect>
+            <rect id="Rectangle-3" sketch:type="MSShapeGroup" x="21" y="15" width="27" height="2"></rect>
+        </g>
+    </g>
+</svg>

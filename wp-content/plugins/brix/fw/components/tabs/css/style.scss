@@ -1,0 +1,90 @@
+@mixin brix_tabs_reset() {
+
+	.brix-tabs {
+		@extend %clearfix !optional;
+	}
+
+	.brix-tabs-nav {
+		@extend %clearfix !optional;
+		font-size: 0.01em;
+
+		li {
+			display: inline-block;
+			list-style: none;
+			font-size: 100em;
+		}
+
+		&.brix-align-right,
+		.rtl & {
+			text-align: right;
+		}
+
+		&.brix-align-left {
+			text-align: left;
+		}
+
+		&.brix-align-center {
+			text-align: center;
+		}
+
+		.brix-tab-trigger {
+			display: block;
+
+			&:focus {
+				outline: none;
+			}
+		}
+
+		// Vertical tabs nav
+		&.brix-vertical {
+			float: left;
+
+			li {
+				display: block;
+			}
+
+			&.brix-align-right,
+			.rtl & {
+				float: right;
+			}
+
+			&.brix-align-right {
+				text-align: left;
+
+				.rtl & {
+					text-align: right;
+				}
+			}
+
+			&.brix-align-left {
+				float: left;
+
+				.rtl & {
+					text-align: right;
+				}
+			}
+
+			&.brix-align-center {
+				float: none;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+	}
+
+	.brix-tab-container {
+		@extend %clearfix !optional;
+		// overflow: hidden;
+	}
+
+	.brix-tab {
+		display: none;
+	}
+
+	// Active style
+	.brix-tab.brix-active {
+		display: block;
+	}
+
+}

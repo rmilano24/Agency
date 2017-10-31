@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>1-2_1-2s</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="sections" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="1-2_1-2s" sketch:type="MSArtboardGroup">
+            <path d="M0,2.00449605 C0,0.89744345 0.899712682,0 1.99328744,0 L27.0067126,0 C28.1075748,0 29,0.896918893 29,2.00449605 L29,44.995504 C29,46.1025565 28.1002873,47 27.0067126,47 L1.99328744,47 C0.892425187,47 0,46.1030811 0,44.995504 L0,2.00449605 Z M3,3 L26,3 L26,44 L3,44 L3,3 Z" id="Rectangle-1" fill="#3E6274" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-4" fill="#B8C5CC" sketch:type="MSShapeGroup" x="3" y="16" width="3" height="1"></rect>
+            <rect id="Rectangle-1" fill="#CDDC39" sketch:type="MSShapeGroup" x="33" y="0" width="29" height="47" rx="2"></rect>
+            <path d="M10.575,59 L10.575,52.997 L9.459,52.997 L7.569,54.896 L8.298,55.661 L9.297,54.644 L9.297,59 L10.575,59 Z M12.997,59.18 L15.13,52.817 L14.302,52.817 L12.169,59.18 L12.997,59.18 Z M21.071,59 L21.071,57.875 L18.623,57.875 C20.18,56.741 21.026,55.85 21.026,54.824 C21.026,53.627 20.009,52.907 18.731,52.907 C17.894,52.907 17.003,53.213 16.418,53.888 L17.147,54.734 C17.552,54.311 18.074,54.041 18.758,54.041 C19.253,54.041 19.73,54.302 19.73,54.824 C19.73,55.562 19.01,56.183 16.553,58.001 L16.553,59 L21.071,59 Z" id="1/2" fill="#3E6274" sketch:type="MSShapeGroup"></path>
+            <path d="M43.575,59 L43.575,52.997 L42.459,52.997 L40.569,54.896 L41.298,55.661 L42.297,54.644 L42.297,59 L43.575,59 Z M45.997,59.18 L48.13,52.817 L47.302,52.817 L45.169,59.18 L45.997,59.18 Z M54.071,59 L54.071,57.875 L51.623,57.875 C53.18,56.741 54.026,55.85 54.026,54.824 C54.026,53.627 53.009,52.907 51.731,52.907 C50.894,52.907 50.003,53.213 49.418,53.888 L50.147,54.734 C50.552,54.311 51.074,54.041 51.758,54.041 C52.253,54.041 52.73,54.302 52.73,54.824 C52.73,55.562 52.01,56.183 49.553,58.001 L49.553,59 L54.071,59 Z" id="1/2" fill="#CDDC39" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-6" fill="#B8C5CC" sketch:type="MSShapeGroup" x="9" y="17" width="1" height="3"></rect>
+            <rect id="Rectangle-4" fill="#B8C5CC" sketch:type="MSShapeGroup" x="8" y="16" width="3" height="1"></rect>
+            <rect id="Rectangle-4" fill="#B8C5CC" sketch:type="MSShapeGroup" x="13" y="16" width="3" height="1"></rect>
+            <rect id="Rectangle-4" fill="#B8C5CC" sketch:type="MSShapeGroup" x="18" y="16" width="3" height="1"></rect>
+            <rect id="Rectangle-4" fill="#B8C5CC" sketch:type="MSShapeGroup" x="23" y="16" width="3" height="1"></rect>
+            <rect id="Rectangle-4" fill="#B8C5CC" sketch:type="MSShapeGroup" x="3" y="30" width="3" height="1"></rect>
+            <rect id="Rectangle-4" fill="#B8C5CC" sketch:type="MSShapeGroup" x="8" y="30" width="3" height="1"></rect>
+            <rect id="Rectangle-4" fill="#B8C5CC" sketch:type="MSShapeGroup" x="13" y="30" width="3" height="1"></rect>
+            <rect id="Rectangle-4" fill="#B8C5CC" sketch:type="MSShapeGroup" x="18" y="30" width="3" height="1"></rect>
+            <rect id="Rectangle-4" fill="#B8C5CC" sketch:type="MSShapeGroup" x="23" y="30" width="3" height="1"></rect>
+            <rect id="Rectangle-6" fill="#B8C5CC" sketch:type="MSShapeGroup" x="9" y="22" width="1" height="3"></rect>
+            <rect id="Rectangle-6" fill="#B8C5CC" sketch:type="MSShapeGroup" x="9" y="27" width="1" height="3"></rect>
+            <rect id="Rectangle-6" fill="#B8C5CC" sketch:type="MSShapeGroup" x="19" y="17" width="1" height="3"></rect>
+            <rect id="Rectangle-6" fill="#B8C5CC" sketch:type="MSShapeGroup" x="19" y="22" width="1" height="3"></rect>
+            <rect id="Rectangle-6" fill="#B8C5CC" sketch:type="MSShapeGroup" x="19" y="27" width="1" height="3"></rect>
+            <rect id="Rectangle-6" fill="#B8C5CC" sketch:type="MSShapeGroup" x="14" y="3" width="1" height="3"></rect>
+            <rect id="Rectangle-6" fill="#B8C5CC" sketch:type="MSShapeGroup" x="14" y="8" width="1" height="3"></rect>
+            <rect id="Rectangle-6" fill="#B8C5CC" sketch:type="MSShapeGroup" x="14" y="13" width="1" height="3"></rect>
+            <rect id="Rectangle-6" fill="#B8C5CC" sketch:type="MSShapeGroup" x="14" y="31" width="1" height="3"></rect>
+            <rect id="Rectangle-6" fill="#B8C5CC" sketch:type="MSShapeGroup" x="14" y="36" width="1" height="3"></rect>
+            <rect id="Rectangle-6" fill="#B8C5CC" sketch:type="MSShapeGroup" x="14" y="41" width="1" height="3"></rect>
+        </g>
+    </g>
+</svg>
