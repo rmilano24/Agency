@@ -16,7 +16,7 @@
 		<?php endif; ?>
 
 		<?php wp_head(); ?>
-		<link rel='stylesheet' id='agncy-style-css'  href='http://milanoagency.wpengine.com/wp-content/themes/agncy/milano.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='agncy-style-css'  href='http://milanoagency.wpengine.com/wp-content/themes/milano/milano.css' type='text/css' media='all' />
 	</head>
 
 	<body <?php body_class(); ?>>
