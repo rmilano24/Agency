@@ -6,7 +6,7 @@
 				<div class="agncy-f-col_full" id="cta">
 
 					<div class="brix-block-content"><p class="agncy-t-sh">So now what?</p>
-				<h2>We’re ready! <a href="http://localhost:8888/agency/contact/lets-do-this/">Let’s do this.</a></h2>
+				<h2>We’re ready! <a href="/contact/lets-do-this/">Let’s do this.</a></h2>
 				</div>
 
 				</div>
@@ -21,7 +21,7 @@
 					<li>© 2017 Milano</li>
 					<li><a href="tel:18312396605">831 239 6605</a></li>
 					<li>2450 17th Ave Santa Cruz, CA 95062</li>
-					<li><a href="http://localhost:8888/agency/contact">Contact Us</a></li>
+					<li><a href="/contact">Contact Us</a></li>
 				</ul>
 			</div>
 		</div>
