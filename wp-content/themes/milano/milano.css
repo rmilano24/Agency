@@ -68,6 +68,8 @@
   margin: 150px 0;
 }
 
+
+
 form input:not([type="submit"]), form textarea {
   width: 100%;
   border: 1px solid #e8e8e8;
@@ -167,6 +169,7 @@ form input[type="submit"] {
 
   .contact-blocks {
     text-align: center;
+    margin: 0px;
   }
 
   .contact-blocks .brix-col-1-3 {
@@ -175,6 +178,23 @@ form input[type="submit"] {
 
   .brix-col-5-12, .brix-col-1-3, .brix-col-1-2 {
     width: 100% !important;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+
+  #journal, #projects {
+    padding-top: 0px !important;
+  }
+
+  .brix-section-column-0 .brix-section-column-spacing-wrapper, .brix-section-1, .brix-section-3 {
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+
+  .no-pad-bottom .brix-section-column-spacing-wrapper {
+    padding-bottom: 0px !important;
   }
 
 }
